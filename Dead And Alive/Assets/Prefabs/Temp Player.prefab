@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 2289727568829799531}
   - component: {fileID: 3059297802802216545}
   - component: {fileID: 2611127584458105308}
-  - component: {fileID: 3062775848554774087}
   - component: {fileID: 2021248178495296899}
   - component: {fileID: 4751193988306246974}
+  - component: {fileID: 8566182327049768255}
+  - component: {fileID: 3062775848554774087}
   m_Layer: 0
   m_Name: Temp Player
   m_TagString: Untagged
@@ -86,20 +87,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &3062775848554774087
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3510495603385213975}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9aa1ef7314e59a4897963034faeb129, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 2021248178495296899}
-  walkSpeed: 6
 --- !u!54 &2021248178495296899
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -148,3 +135,30 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.3910398, y: 9.37127, z: 4.0612993}
   m_Center: {x: 0.00033593175, y: 1.45426, z: -1.0011547e-11}
+--- !u!114 &8566182327049768255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3510495603385213975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0c6d62ea97c9ee4dac07df6ad1e3ca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventorySize: 5
+--- !u!114 &3062775848554774087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3510495603385213975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9aa1ef7314e59a4897963034faeb129, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 2021248178495296899}
+  walkSpeed: 6
