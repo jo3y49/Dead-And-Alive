@@ -30,11 +30,9 @@ public class PlayerMovement : MonoBehaviour {
         Vector2 moveInput = context.ReadValue<Vector2>();
         // anim.SetBool("Moving", true);
 
-        Vector3 rotateDirection = new Vector3(moveInput.y, 0, -moveInput.x).normalized;
-
-        transform.rotation = Quaternion.LookRotation(rotateDirection);
-
         Vector3 moveDirection = -new Vector3(moveInput.x, 0, moveInput.y).normalized;
+
+        transform.rotation = Quaternion.LookRotation(moveDirection);
 
         float speedToUse = walkSpeed;
 
