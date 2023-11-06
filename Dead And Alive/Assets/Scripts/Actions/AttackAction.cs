@@ -15,7 +15,7 @@ public class AttackAction
 
     public static bool DoAttack(CharacterBattle self, CharacterBattle target, string attackName, float accuracy, float damageMultiplier)
     {
-        self.SetAnimationTrigger(attackName);
+        self.AttackTrigger(attackName);
 
         bool hitAttack = AttackCheck(self, target, accuracy);
 
@@ -45,7 +45,7 @@ public class AttackAction
 
     public static bool DoHeal(CharacterBattle self, string attackName, float healMultipler)
     {
-        self.SetAnimationTrigger(attackName);
+        self.AttackTrigger(attackName);
 
         self.Heal((int)(self.maxHealth/2 * healMultipler));
 

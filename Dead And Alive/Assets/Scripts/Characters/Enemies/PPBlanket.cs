@@ -6,7 +6,7 @@ public class PPBlanket : EnemyBattle {
 
         CharacterName = "PP Blanket";
 
-        attackKeys.Add("melee");
+        attackKeys.Add("physical");
 
         attackActions.Add(AttackList.GetInstance().GetAction(attackKeys[0]));
     }

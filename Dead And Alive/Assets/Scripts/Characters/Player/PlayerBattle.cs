@@ -10,7 +10,7 @@ public class PlayerBattle : CharacterBattle {
 
         CharacterName = "Leoh";
 
-        attackKeys.Add("melee");
+        attackKeys.Add("physical");
         attackKeys.Add("ranged");
         attackKeys.Add("heal");
 

@@ -30,7 +30,7 @@ public class AttackList
     {
         actionList = new Dictionary<string, AttackAction>()
         {
-            {"melee", new AttackAction("Melee", Melee)},
+            {"physical", new AttackAction("Physical", Physical)},
             {"ranged", new AttackAction("Ranged", Ranged)},
             {"heal", new AttackAction("Heal", Heal)},
         };
@@ -46,9 +46,9 @@ public class AttackList
         return AttackAction.DoAttack(self, target, attackName, accuracy, damageMultiplier);
     }
 
-    public bool Melee(CharacterBattle self, CharacterBattle target)
+    public bool Physical(CharacterBattle self, CharacterBattle target)
     {
-        string attackName = GetAction("melee").Name;
+        string attackName = GetAction("physical").Name;
         float accuracy = 1f;
         float damageMultiplier = 1f;
         

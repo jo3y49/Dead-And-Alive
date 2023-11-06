@@ -70,6 +70,8 @@ public class CharacterBattle : MonoBehaviour {
 
     public virtual void SetAnimationTrigger(string triggerName) { characterAnimation.AnimationTrigger(triggerName); }
 
+    public virtual void AttackTrigger(string triggerName) { characterAnimation.AttackTrigger(triggerName); }
+
     public virtual Animator GetAnimator() {return characterAnimation.GetAnimator();}
 
     public virtual bool GetIsAttacking() {return characterAnimation.isAttacking;}

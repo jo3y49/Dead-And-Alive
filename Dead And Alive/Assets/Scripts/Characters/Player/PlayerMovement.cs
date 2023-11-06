@@ -3,6 +3,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour {
     [SerializeField] private Rigidbody rb;
+    [SerializeField] private Animator anim;
     private InputActions actions;
 
     public float walkSpeed = 5;
@@ -22,13 +23,15 @@ public class PlayerMovement : MonoBehaviour {
         actions.Player.Movement.performed -= MoveCharacter;
         actions.Player.Movement.canceled -= StopCharacter;
 
+        StopMovement();
+
         actions.Player.Disable();
     }
 
     private void MoveCharacter(InputAction.CallbackContext context)
     {
         Vector2 moveInput = context.ReadValue<Vector2>();
-        // anim.SetBool("Moving", true);
+        anim.SetBool("Moving", true);
 
         Vector3 moveDirection = -new Vector3(moveInput.x, 0, moveInput.y).normalized;
 
@@ -39,9 +42,14 @@ public class PlayerMovement : MonoBehaviour {
         rb.velocity = moveDirection * speedToUse;
     }
 
-    private void StopCharacter(InputAction.CallbackContext context)
+    private void StopMovement()
     {
         rb.velocity = Vector3.zero;
+        anim.SetBool("Moving", false);
     }
 
+    private void StopCharacter(InputAction.CallbackContext context)
+    {
+        StopMovement();
+    }
 }
