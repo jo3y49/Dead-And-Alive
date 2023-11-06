@@ -5,10 +5,15 @@ ModelImporter:
   internalIDToNameTable: []
   externalObjects:
   - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: d04240465aac84147b2c49b916baac35, type: 2}
+  - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: ppblanket-tex
-    second: {fileID: 2800000, guid: 76d3aec0761bf844d88a40ff020daf3d, type: 3}
+    second: {fileID: 2800000, guid: 290713f54acb4b74396630ef2cf6ea8c, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

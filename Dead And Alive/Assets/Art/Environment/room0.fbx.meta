@@ -1,9 +1,39 @@
 fileFormatVersion: 2
-guid: 98550833aabe9384aad91311fdccc4ce
+guid: 6a48f7640dfb0174facf9ce911e7a143
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 229c705fd8173d646834bf680aee7161, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: c2ac3918c256e154383e9c6958ec72b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 137fdc88f0714ed499beec3c7d7e737f, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: blanket
+    second: {fileID: 2800000, guid: 42fd57601729b754cb3b20e50547f413, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: furniture-tex
+    second: {fileID: 2800000, guid: 18c45b4a2ee86fa489ab6600ec053d2c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room-tex
+    second: {fileID: 2800000, guid: b2706d70682038347940064fcb3cedec, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
