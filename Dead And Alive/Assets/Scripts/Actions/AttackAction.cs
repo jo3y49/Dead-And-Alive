@@ -19,7 +19,7 @@ public class AttackAction
 
         bool hitAttack = AttackCheck(self, target, accuracy);
 
-        if (hitAttack) HitEnemy(self, target, damageMultiplier);
+        if (hitAttack) HitTarget(self, target, damageMultiplier);
 
         return hitAttack;
     }
@@ -33,7 +33,7 @@ public class AttackAction
         return self.hitTarget;
     }
 
-    private static void HitEnemy(CharacterBattle self, CharacterBattle target, float d)
+    private static void HitTarget(CharacterBattle self, CharacterBattle target, float d)
     {
         target.SetAnimationTrigger("Attacked");
 

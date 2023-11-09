@@ -10,36 +10,32 @@ public class CharacterAnimation : MonoBehaviour {
 
     public virtual void AttackTrigger(string triggerName)
     {
-        if (TriggerExists(triggerName, anim))
+        if (Utility.TriggerExists("Attack", anim))
         {
             StartCoroutine(AttackDuration());
             anim.SetTrigger("Attack");
-            currentTrigger = triggerName;
-            anim.SetTrigger(currentTrigger);
+
+            if (Utility.TriggerExists(triggerName, anim))
+            {
+                currentTrigger = triggerName;
+                anim.SetTrigger(currentTrigger);
+            }
         }
     }
 
     public virtual void AnimationTrigger(string triggerName)
     {
-        if (TriggerExists(triggerName, anim))
+        if (Utility.TriggerExists(triggerName, anim))
         {
             currentTrigger = triggerName;
             anim.SetTrigger(currentTrigger);
         }
     }
 
-    private bool TriggerExists(string triggerName, Animator anim) 
+    public virtual void AnimationSetBool(string triggerName, bool b)
     {
-        if (anim == null) return false;
-
-        int hash = Animator.StringToHash(triggerName);
-        for (int i = 0; i < anim.parameterCount; i++)
-        {
-            AnimatorControllerParameter param = anim.GetParameter(i);
-            if (param.nameHash == hash && param.type == AnimatorControllerParameterType.Trigger)
-                return true;
-        }
-        return false;
+        if (Utility.TriggerExists(triggerName, anim))
+            anim.SetBool(triggerName, b);
     }
 
     private IEnumerator AttackDuration()

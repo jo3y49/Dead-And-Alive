@@ -6,8 +6,16 @@ public class PPBlanket : EnemyBattle {
 
         CharacterName = "PP Blanket";
 
-        attackKeys.Add("physical");
+        attackKeys.Add("throw");
 
         attackActions.Add(AttackList.GetInstance().GetAction(attackKeys[0]));
+    }
+
+    public override void Attacked(int damage)
+    {
+        base.Attacked(damage);
+
+        if ((float)health / maxHealth <= .25f)
+            characterAnimation.AnimationSetBool("Weak", true);
     }
 }

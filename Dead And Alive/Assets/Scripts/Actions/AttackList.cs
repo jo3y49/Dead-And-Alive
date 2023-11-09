@@ -33,6 +33,7 @@ public class AttackList
             {"physical", new AttackAction("Physical", Physical)},
             {"ranged", new AttackAction("Ranged", Ranged)},
             {"heal", new AttackAction("Heal", Heal)},
+            {"throw", new AttackAction("Throw", Throw)},
         };
     }
 
@@ -70,5 +71,14 @@ public class AttackList
         float healMultiplier = 1f;
 
         return AttackAction.DoHeal(self, attackName, healMultiplier);
+    }
+
+    public bool Throw(CharacterBattle self, CharacterBattle target)
+    {
+        string attackName = GetAction("throw").Name;
+        float accuracy = 1f;
+        float damageMultiplier = 1f;
+
+        return AttackAction.DoAttack(self, target, attackName, accuracy, damageMultiplier);
     }
 }

@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using System;
 
 public class CharacterBattle : MonoBehaviour {
     [SerializeField] protected CharacterAnimation characterAnimation;
@@ -69,6 +70,8 @@ public class CharacterBattle : MonoBehaviour {
     }
 
     public virtual void SetAnimationTrigger(string triggerName) { characterAnimation.AnimationTrigger(triggerName); }
+
+    public virtual void SetAnimationBool(string triggerName, bool b) { characterAnimation.AnimationSetBool(triggerName, b); }
 
     public virtual void AttackTrigger(string triggerName) { characterAnimation.AttackTrigger(triggerName); }
 
