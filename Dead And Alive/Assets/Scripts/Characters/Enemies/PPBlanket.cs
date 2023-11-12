@@ -9,6 +9,8 @@ public class PPBlanket : EnemyBattle {
         attackKeys.Add("throw");
 
         attackActions.Add(AttackList.GetInstance().GetAction(attackKeys[0]));
+        
+        gameObject.SetActive(false);
     }
 
     public override void Attacked(int damage)

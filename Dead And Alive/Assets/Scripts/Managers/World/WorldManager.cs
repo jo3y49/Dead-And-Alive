@@ -30,7 +30,10 @@ public abstract class WorldManager : MonoBehaviour {
         return enemies;
     }
 
-    public virtual void WinBattle(){}
+    public virtual void WinBattle()
+    {
+        CameraSwitcher.GetInstance().MainCamera();
+    }
 
     public virtual void LoseBattle()
     {
@@ -58,6 +61,8 @@ public abstract class WorldManager : MonoBehaviour {
 
     protected virtual void StartBattle() 
     {
+        CameraSwitcher.GetInstance().BattleCamera();
+
         playerBattle.PrepareCombat();
         battleUI.SetActive(true);
     }

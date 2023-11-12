@@ -10,12 +10,12 @@ public class CharacterAnimation : MonoBehaviour {
 
     public virtual void AttackTrigger(string triggerName)
     {
-        if (Utility.TriggerExists("Attack", anim))
+        if (Utility.CheckIfAnimationParamExists("Attack", anim))
         {
             StartCoroutine(AttackDuration());
             anim.SetTrigger("Attack");
 
-            if (Utility.TriggerExists(triggerName, anim))
+            if (Utility.CheckIfAnimationParamExists(triggerName, anim))
             {
                 currentTrigger = triggerName;
                 anim.SetTrigger(currentTrigger);
@@ -25,7 +25,7 @@ public class CharacterAnimation : MonoBehaviour {
 
     public virtual void AnimationTrigger(string triggerName)
     {
-        if (Utility.TriggerExists(triggerName, anim))
+        if (Utility.CheckIfAnimationParamExists(triggerName, anim))
         {
             currentTrigger = triggerName;
             anim.SetTrigger(currentTrigger);
@@ -34,7 +34,7 @@ public class CharacterAnimation : MonoBehaviour {
 
     public virtual void AnimationSetBool(string triggerName, bool b)
     {
-        if (Utility.TriggerExists(triggerName, anim))
+        if (Utility.CheckIfAnimationParamExists(triggerName, anim))
             anim.SetBool(triggerName, b);
     }
 

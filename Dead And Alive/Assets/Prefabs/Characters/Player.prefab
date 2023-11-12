@@ -84,8 +84,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.35, y: 1.8332776, z: 0.86903864}
-  m_Center: {x: 0, y: 0.767912, z: -0.009649068}
+  m_Size: {x: 1.35, y: 2.0478575, z: 0.86903864}
+  m_Center: {x: 0, y: 0.87520194, z: -0.009649068}
 --- !u!114 &7935673542042627516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99,6 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventorySize: 10
+  grabRange: 5
 --- !u!114 &2823462950413645187
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../../</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1022080539" Type="User" Language="SFX" Hash="{343624FC-22EF-E50C-8663-69E1BF4BE8C8}">
+			<ShortName>tutorial_sfx_01</ShortName>
+			<Path>tutorial_sfx_01.bnk</Path>
+			<Media>
+				<File Id="13601945" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>plyr_footstep_norug_B.wav</ShortName>
+					<CachePath>SFX/plyr_footstep_norug_B_5897FA7C.wem</CachePath>
+				</File>
+				<File Id="18253306" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>interactions\plyr_interact_03.wav</ShortName>
+					<CachePath>SFX/interactions/plyr_interact_03_23FDB2FA.wem</CachePath>
+				</File>
+				<File Id="51526890" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>plyr_footstep_rug_B.wav</ShortName>
+					<CachePath>SFX/plyr_footstep_rug_B_7CB14F9C.wem</CachePath>
+				</File>
+				<File Id="119603285" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Battle SFX\battle_leoh_atk_scrub.wav</ShortName>
+					<CachePath>SFX/Battle SFX/battle_leoh_atk_scrub_818F3B66.wem</CachePath>
+				</File>
+				<File Id="181200246" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>plyr_footstep_norug_B.wav</ShortName>
+					<CachePath>SFX/plyr_footstep_norug_B_9A3FF903.wem</CachePath>
+				</File>
+				<File Id="196652561" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>interactions\plyr_interact_02.wav</ShortName>
+					<CachePath>SFX/interactions/plyr_interact_02_A838AFAD.wem</CachePath>
+				</File>
+				<File Id="214335777" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Battle SFX\battle_blanket_death.wav</ShortName>
+					<CachePath>SFX/Battle SFX/battle_blanket_death_818F3B66.wem</CachePath>
+				</File>
+				<File Id="254728033" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>interactions\plyr_interact_01.wav</ShortName>
+					<CachePath>SFX/interactions/plyr_interact_01_9ACCF07D.wem</CachePath>
+				</File>
+				<File Id="257574325" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Leo OST\Bussin Bussin (Battle Theme).wav</ShortName>
+					<CachePath>SFX/Leo OST/Bussin Bussin (Battle Theme)_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="260488563" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stage_SFX_Can't Interact.wav</ShortName>
+					<CachePath>SFX/Stage_SFX_Can't Interact_312F7756.wem</CachePath>
+				</File>
+				<File Id="261084782" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Battle SFX\adlib_blanket_hurt.wav</ShortName>
+					<CachePath>SFX/Battle SFX/adlib_blanket_hurt_818F3B66.wem</CachePath>
+				</File>
+				<File Id="264491964" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>plyr_footstep_norug_B.wav</ShortName>
+					<CachePath>SFX/plyr_footstep_norug_B_1ED06C23.wem</CachePath>
+				</File>
+				<File Id="288167424" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>plyr_footstep_norug_B.wav</ShortName>
+					<CachePath>SFX/plyr_footstep_norug_B_E90CCA63.wem</CachePath>
+				</File>
+				<File Id="345357220" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>plyr_footstep_rug_B.wav</ShortName>
+					<CachePath>SFX/plyr_footstep_rug_B_71391CB3.wem</CachePath>
+				</File>
+				<File Id="367574824" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>plyr_footstep_norug_B.wav</ShortName>
+					<CachePath>SFX/plyr_footstep_norug_B_8989DF06.wem</CachePath>
+				</File>
+				<File Id="409409560" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stage_SFX_Can't Interact.wav</ShortName>
+					<CachePath>SFX/Stage_SFX_Can't Interact_1C27081D.wem</CachePath>
+				</File>
+				<File Id="429200001" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Battle SFX\battle_leoh_heal_cry.wav</ShortName>
+					<CachePath>SFX/Battle SFX/battle_leoh_heal_cry_818F3B66.wem</CachePath>
+				</File>
+				<File Id="438640651" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>plyr_footstep_norug_B.wav</ShortName>
+					<CachePath>SFX/plyr_footstep_norug_B_957278B4.wem</CachePath>
+				</File>
+				<File Id="443785801" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>plyr_footstep_rug_B.wav</ShortName>
+					<CachePath>SFX/plyr_footstep_rug_B_90FF976F.wem</CachePath>
+				</File>
+				<File Id="456665027" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Battle SFX\battle_blanket_atk_smack.wav</ShortName>
+					<CachePath>SFX/Battle SFX/battle_blanket_atk_smack_818F3B66.wem</CachePath>
+				</File>
+				<File Id="472663334" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Battle SFX\adlib_leoh_icandoit.wav</ShortName>
+					<CachePath>SFX/Battle SFX/adlib_leoh_icandoit_818F3B66.wem</CachePath>
+				</File>
+				<File Id="483489420" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>plyr_footstep_rug_B.wav</ShortName>
+					<CachePath>SFX/plyr_footstep_rug_B_B18263C6.wem</CachePath>
+				</File>
+				<File Id="499017821" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>start_menu_hilight.wav</ShortName>
+					<CachePath>SFX/start_menu_hilight_818F3B66.wem</CachePath>
+				</File>
+				<File Id="522558357" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>plyr_footstep_rug_B.wav</ShortName>
+					<CachePath>SFX/plyr_footstep_rug_B_30786BF6.wem</CachePath>
+				</File>
+				<File Id="584080768" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>plyr_footstep_rug_B.wav</ShortName>
+					<CachePath>SFX/plyr_footstep_rug_B_09747BF6.wem</CachePath>
+				</File>
+				<File Id="584515178" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Battle SFX\adlib_leoh_notagain.wav</ShortName>
+					<CachePath>SFX/Battle SFX/adlib_leoh_notagain_818F3B66.wem</CachePath>
+				</File>
+				<File Id="620398112" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Battle SFX\battle_start_fanfare.wav</ShortName>
+					<CachePath>SFX/Battle SFX/battle_start_fanfare_818F3B66.wem</CachePath>
+				</File>
+				<File Id="644968494" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Battle SFX\battle_menu_select.wav</ShortName>
+					<CachePath>SFX/Battle SFX/battle_menu_select_818F3B66.wem</CachePath>
+				</File>
+				<File Id="653647821" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>plyr_footstep_rug_B.wav</ShortName>
+					<CachePath>SFX/plyr_footstep_rug_B_63F29ECA.wem</CachePath>
+				</File>
+				<File Id="678941195" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Battle SFX\battle_blanket_atk_blow.wav</ShortName>
+					<CachePath>SFX/Battle SFX/battle_blanket_atk_blow_818F3B66.wem</CachePath>
+				</File>
+				<File Id="741486911" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Battle SFX\adlib_leoh_ohh.wav</ShortName>
+					<CachePath>SFX/Battle SFX/adlib_leoh_ohh_818F3B66.wem</CachePath>
+				</File>
+				<File Id="749999793" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>plyr_footstep_rug_B.wav</ShortName>
+					<CachePath>SFX/plyr_footstep_rug_B_1AE4EFBC.wem</CachePath>
+				</File>
+				<File Id="788219700" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Leo OST\The Night Is Young.wav</ShortName>
+					<CachePath>SFX/Leo OST/The Night Is Young_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="824677581" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Battle SFX\adlib_leoh_owowow.wav</ShortName>
+					<CachePath>SFX/Battle SFX/adlib_leoh_owowow_818F3B66.wem</CachePath>
+				</File>
+				<File Id="842490701" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Battle SFX\battle_leoh_atk_spray.wav</ShortName>
+					<CachePath>SFX/Battle SFX/battle_leoh_atk_spray_818F3B66.wem</CachePath>
+				</File>
+				<File Id="850956333" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Battle SFX\adlib_leoh_ouchies.wav</ShortName>
+					<CachePath>SFX/Battle SFX/adlib_leoh_ouchies_818F3B66.wem</CachePath>
+				</File>
+				<File Id="941862698" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Leo OST\Title Theme.wav</ShortName>
+					<CachePath>SFX/Leo OST/Title Theme_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1000087095" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stage_SFX_Can't Interact.wav</ShortName>
+					<CachePath>SFX/Stage_SFX_Can't Interact_5DFC0536.wem</CachePath>
+				</File>
+				<File Id="1018010528" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>plyr_footstep_norug_B.wav</ShortName>
+					<CachePath>SFX/plyr_footstep_norug_B_C1972E40.wem</CachePath>
+				</File>
+				<File Id="1028931122" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Battle SFX\battle_menu_hilight.wav</ShortName>
+					<CachePath>SFX/Battle SFX/battle_menu_hilight_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1030457540" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>start_menu_select.wav</ShortName>
+					<CachePath>SFX/start_menu_select_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1035771055" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>plyr_footstep_norug_B.wav</ShortName>
+					<CachePath>SFX/plyr_footstep_norug_B_9D22BA58.wem</CachePath>
+				</File>
+				<File Id="1050315229" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stage_SFX_Can't Interact.wav</ShortName>
+					<CachePath>SFX/Stage_SFX_Can't Interact_15E39D9F.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2093969607" Name="battle_leoh_cry">
+					<MediaRefs>
+						<MediaRef Id="429200001"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3671520594" Name="battle_leoh_lose">
+					<MediaRefs>
+						<MediaRef Id="584515178"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3313907494" Name="battle_leoh_scrub">
+					<MediaRefs>
+						<MediaRef Id="119603285"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1166900932" Name="battle_leoh_spray">
+					<MediaRefs>
+						<MediaRef Id="842490701"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2323196684" Name="battle_leoh_takedmg">
+					<MediaRefs>
+						<MediaRef Id="741486911"/>
+						<MediaRef Id="824677581"/>
+						<MediaRef Id="850956333"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3747978853" Name="battle_menu_hilight">
+					<MediaRefs>
+						<MediaRef Id="1028931122"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2192358494" Name="battle_menu_select">
+					<MediaRefs>
+						<MediaRef Id="644968494"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3792906618" Name="battle_mons_blow">
+					<MediaRefs>
+						<MediaRef Id="678941195"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3060326344" Name="battle_mons_die">
+					<MediaRefs>
+						<MediaRef Id="214335777"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1177863625" Name="battle_mons_smack">
+					<MediaRefs>
+						<MediaRef Id="456665027"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3504249157" Name="battle_mons_takedmg">
+					<MediaRefs>
+						<MediaRef Id="261084782"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2767477490" Name="battle_mons_weak">
+					<MediaRefs>
+						<MediaRef Id="261084782"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2706291346" Name="battle_start">
+					<MediaRefs>
+						<MediaRef Id="257574325"/>
+						<MediaRef Id="620398112"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="583993376" Name="battle_victory">
+					<MediaRefs>
+						<MediaRef Id="472663334"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3079431841" Name="file_loaded">
+					<MediaRefs>
+						<MediaRef Id="788219700"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="733168346" Name="game_start">
+					<MediaRefs>
+						<MediaRef Id="941862698"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="441633477" Name="plyr_interact_bad">
+					<MediaRefs>
+						<MediaRef Id="260488563"/>
+						<MediaRef Id="409409560"/>
+						<MediaRef Id="1000087095"/>
+						<MediaRef Id="1050315229"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4125318811" Name="plyr_interact_good">
+					<MediaRefs>
+						<MediaRef Id="18253306"/>
+						<MediaRef Id="196652561"/>
+						<MediaRef Id="254728033"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2377987088" Name="plyr_move">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3714303081" Id="2412606308" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="13601945"/>
+								<MediaRef Id="181200246"/>
+								<MediaRef Id="264491964"/>
+								<MediaRef Id="288167424"/>
+								<MediaRef Id="367574824"/>
+								<MediaRef Id="438640651"/>
+								<MediaRef Id="1018010528"/>
+								<MediaRef Id="1035771055"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3714303081" Id="712161697"/>
+							<MediaRefs>
+								<MediaRef Id="51526890"/>
+								<MediaRef Id="345357220"/>
+								<MediaRef Id="443785801"/>
+								<MediaRef Id="483489420"/>
+								<MediaRef Id="522558357"/>
+								<MediaRef Id="584080768"/>
+								<MediaRef Id="653647821"/>
+								<MediaRef Id="749999793"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2567496511" Name="title_menu_hilight">
+					<MediaRefs>
+						<MediaRef Id="499017821"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3730684024" Name="title_menu_select">
+					<MediaRefs>
+						<MediaRef Id="1030457540"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="3714303081" Name="surfaces">
+					<Switches>
+						<Switch Id="712161697" Name="rug"/>
+						<Switch Id="2412606308" Name="carpet"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{AB9F0343-CD85-AB9E-58D8-B63D74A50185}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="822163944" Name="SS_Air_RPM"/>
+				<GameParameter Id="1029930033" Name="SS_Air_Fury"/>
+				<GameParameter Id="1351367891" Name="SS_Air_Fear"/>
+				<GameParameter Id="2648548617" Name="SS_Air_Month"/>
+				<GameParameter Id="3002758120" Name="SS_Air_Freefall"/>
+				<GameParameter Id="3074696722" Name="SS_Air_Size"/>
+				<GameParameter Id="3203397129" Name="SS_Air_TimeOfDay"/>
+				<GameParameter Id="3715662592" Name="SS_Air_Storm"/>
+				<GameParameter Id="3847924954" Name="SS_Air_Presence"/>
+				<GameParameter Id="4160247818" Name="SS_Air_Turbulence"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="3714303081" Name="surfaces">
+					<Switches>
+						<Switch Id="712161697" Name="rug"/>
+						<Switch Id="2412606308" Name="carpet"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+			<AcousticTextures>
+				<AcousticTexture Id="504532776" Name="Brick">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="18"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="23"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="513139656" Name="Mountain">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="841620460" Name="Concrete">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="14"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1755085759" Name="Wood_Deep">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="1"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="8"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1873957695" Name="Anechoic">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1970351858" Name="Fabric">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="3"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="13"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="48"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="72"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2058049674" Name="Wood">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2412606308" Name="Carpet">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="46"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="45"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="76"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2637588553" Name="Tile">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="67"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="41"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2928161104" Name="Curtains">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="7"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="60"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="84"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3195498748" Name="Cork_Tiles">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="14"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="30"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="73"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3670307564" Name="Drywall">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="2"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4168643977" Name="Acoustic_Banner">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="37"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4262522749" Name="Wood_Bright">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="10"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="9"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+			</AcousticTextures>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{6E63FCA1-6B2E-42F5-154F-B5FB0A874E53}</FileHash>
+</SoundBanksInfo>

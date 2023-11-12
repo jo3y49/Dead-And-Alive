@@ -11,7 +11,7 @@ public static class Utility {
             EventSystem.current.SetSelectedGameObject(button.gameObject);
     }
 
-    public static bool TriggerExists(string triggerName, Animator anim) 
+    public static bool CheckIfAnimationParamExists(string triggerName, Animator anim) 
     {
         if (anim == null) return false;
 
