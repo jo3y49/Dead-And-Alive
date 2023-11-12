@@ -7,6 +7,7 @@ using UnityEngine;
 public class TutorialManager : WorldManager {
     [SerializeField] private PPBlanket pPBlanket;
     [SerializeField] private List<BlanketCheck> blanketSpots;
+    [SerializeField] private SleepCheck sleepCheck;
 
     public Vector3 playerStartLocation, pPBlanketBattleLocation, playerBattleLocation;
     public Vector3 playerStartRotation, playerBattleRotation;
@@ -40,6 +41,8 @@ public class TutorialManager : WorldManager {
             blanketCheck.SetTutorialManager(this);
         }
 
+        sleepCheck.interactable = false;
+
         tutorial = StartCoroutine(WaitForGrab());
     }
 
@@ -54,9 +57,14 @@ public class TutorialManager : WorldManager {
 
         SetBlanketInteractability(false);
 
+        textBox.enabled = true;
+        textBox.text = "Press F to pick up your wet blanket";
+
         while (grabTutorial){
             yield return null;
         }
+
+        textBox.text = "Wet blanket has been picked up! You need to hide it before mom sees. Try pressing F on various things in the room to hide it.";
 
         inputActions.Player.Interact.performed -= context => grabTutorial = false;
         inputActions.Disable();
@@ -77,10 +85,13 @@ public class TutorialManager : WorldManager {
     public void FindBlanket()
     {
         blanketCounter--;
+        if (textDisplay != null) StopCoroutine(textDisplay);
 
         if (blanketCounter > 0)
         {
-            Debug.Log("Can't hide it here");
+            
+            textDisplay = StartCoroutine(DisplayTextTemp("Can't hide it here"));
+
             return;
         }
 
@@ -94,6 +105,16 @@ public class TutorialManager : WorldManager {
         StartBattle();
     }
 
+    public override void WinBattle()
+    {
+        base.WinBattle();
+
+        sleepCheck.interactable = true;
+
+        textBox.text = "That's enough. I'm going back to bed";
+        textBox.enabled = true;
+    }
+
     private IEnumerator DisplayTextTemp(string text)
     {
         textBox.enabled = true;
@@ -102,6 +123,7 @@ public class TutorialManager : WorldManager {
         yield return new WaitForSeconds(textDisplayTime);
 
         textBox.enabled = false;
+        textDisplay = null;
     }
 
 }

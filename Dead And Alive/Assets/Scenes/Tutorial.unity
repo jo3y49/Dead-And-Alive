@@ -123,6 +123,51 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &17308040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 17308041}
+  - component: {fileID: 17308042}
+  m_Layer: 0
+  m_Name: Sleep Location
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &17308041
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17308040}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.0501, y: 0.0438, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1255906923}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &17308042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17308040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c29fbcd1266cdc5468c1ee17ac0b3123, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactable: 1
 --- !u!1 &69111845
 GameObject:
   m_ObjectHideFlags: 0
@@ -194,7 +239,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -366}
-  m_SizeDelta: {x: 900, y: 50}
+  m_SizeDelta: {x: 1200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &75238990
 MonoBehaviour:
@@ -243,8 +288,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 48
+  m_fontSizeBase: 48
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -528,6 +573,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2135949308}
+    - targetCorrespondingSourceObject: {fileID: -7824753648676844136, guid: 6a48f7640dfb0174facf9ce911e7a143,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 17308041}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6a48f7640dfb0174facf9ce911e7a143,
         type: 3}
@@ -1973,6 +2022,16 @@ PrefabInstance:
       propertyPath: pPBlanket
       value: 
       objectReference: {fileID: 1810971529}
+    - target: {fileID: 6626738907987602566, guid: 53b91ad162b9da945bbe616bae7ba39c,
+        type: 3}
+      propertyPath: sleepCheck
+      value: 
+      objectReference: {fileID: 17308042}
+    - target: {fileID: 6626738907987602566, guid: 53b91ad162b9da945bbe616bae7ba39c,
+        type: 3}
+      propertyPath: textDisplayTime
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6626738907987602566, guid: 53b91ad162b9da945bbe616bae7ba39c,
         type: 3}
       propertyPath: playerStartLocation.x
