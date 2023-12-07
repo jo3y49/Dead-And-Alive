@@ -1,0 +1,75 @@
+Event	ID	Name			Wwise Object Path	Notes
+	441633477	plyr_interact_bad			\Default Work Unit\plyr_interact_bad	
+	583993376	battle_victory			\Default Work Unit\battle_victory	
+	733168346	game_start			\Default Work Unit\game_start	
+	1166900932	battle_leoh_spray			\Default Work Unit\battle_leoh_spray	
+	1177863625	battle_mons_smack			\Default Work Unit\battle_mons_smack	
+	2093969607	battle_leoh_cry			\Default Work Unit\battle_leoh_cry	
+	2192358494	battle_menu_select			\Default Work Unit\battle_menu_select	
+	2323196684	battle_leoh_takedmg			\Default Work Unit\battle_leoh_takedmg	
+	2377987088	plyr_move			\Default Work Unit\plyr_move	
+	2567496511	title_menu_hilight			\Default Work Unit\title_menu_hilight	
+	2706291346	battle_start			\Default Work Unit\battle_start	
+	2767477490	battle_mons_weak			\Default Work Unit\battle_mons_weak	
+	3060326344	battle_mons_die			\Default Work Unit\battle_mons_die	
+	3079431841	file_loaded			\Default Work Unit\file_loaded	
+	3313907494	battle_leoh_scrub			\Default Work Unit\battle_leoh_scrub	
+	3504249157	battle_mons_takedmg			\Default Work Unit\battle_mons_takedmg	
+	3671520594	battle_leoh_lose			\Default Work Unit\battle_leoh_lose	
+	3730684024	title_menu_select			\Default Work Unit\title_menu_select	
+	3747978853	battle_menu_hilight			\Default Work Unit\battle_menu_hilight	
+	3792906618	battle_mons_blow			\Default Work Unit\battle_mons_blow	
+	4125318811	plyr_interact_good			\Default Work Unit\plyr_interact_good	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3714303081	surfaces			\Default Work Unit\surfaces	
+
+Switch	ID	Name	Switch Group			Notes
+	712161697	rug	surfaces			
+	2412606308	carpet	surfaces			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	13601945	plyr_footstep_norug_06	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\plyr_footstep_norug_B_5897FA7C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stage SFX\plyr_footsteps\plyr_footsteps_norug\plyr_footstep_norug_06		38596
+	18253306	plyr_interact_03	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\interactions\plyr_interact_03_23FDB2FA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stage SFX\Stage_SFX_interact\plyr_interact_03		73980
+	51526890	plyr_footstep_rug_08	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\plyr_footstep_rug_B_7CB14F9C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stage SFX\plyr_footsteps\plyr_footsteps_rug\plyr_footstep_rug_08		50608
+	119603285	battle_leoh_atk_scrub	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\Battle SFX\battle_leoh_atk_scrub_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Battle SFX\Battle SFX\battle_leoh_atk_scrub		551412
+	181200246	plyr_footstep_norug_02	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\plyr_footstep_norug_B_9A3FF903.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stage SFX\plyr_footsteps\plyr_footsteps_norug\plyr_footstep_norug_02		34592
+	196652561	plyr_interact_02	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\interactions\plyr_interact_02_A838AFAD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stage SFX\Stage_SFX_interact\plyr_interact_02		69608
+	214335777	battle_blanket_death	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\Battle SFX\battle_blanket_death_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Battle SFX\Battle SFX\battle_blanket_death		1852360
+	254728033	plyr_interact_01	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\interactions\plyr_interact_01_9ACCF07D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stage SFX\Stage_SFX_interact\plyr_interact_01		69608
+	257574325	Bussin Bussin (Battle Theme)	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\Leo OST\Bussin Bussin (Battle Theme)_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Leo OST\Bussin Bussin (Battle Theme)\Bussin Bussin (Battle Theme)		38516004
+	260488563	Stage_SFX_Can't Interact_03	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\Stage_SFX_Can't Interact_312F7756.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stage SFX\Stage_SFX_noInteract\Stage_SFX_Can't Interact_03		39000
+	261084782	adlib_blanket_hurt	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\Battle SFX\adlib_blanket_hurt_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Battle SFX\Battle SFX\adlib_blanket_hurt		154452
+	264491964	plyr_footstep_norug_01	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\plyr_footstep_norug_B_1ED06C23.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stage SFX\plyr_footsteps\plyr_footsteps_norug\plyr_footstep_norug_01		29596
+	288167424	plyr_footstep_norug_07	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\plyr_footstep_norug_B_E90CCA63.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stage SFX\plyr_footsteps\plyr_footsteps_norug\plyr_footstep_norug_07		38096
+	345357220	plyr_footstep_rug_03	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\plyr_footstep_rug_B_71391CB3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stage SFX\plyr_footsteps\plyr_footsteps_rug\plyr_footstep_rug_03		39740
+	367574824	plyr_footstep_norug_05	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\plyr_footstep_norug_B_8989DF06.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stage SFX\plyr_footsteps\plyr_footsteps_norug\plyr_footstep_norug_05		41596
+	409409560	Stage_SFX_Can't Interact_01	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\Stage_SFX_Can't Interact_1C27081D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stage SFX\Stage_SFX_noInteract\Stage_SFX_Can't Interact_01		46960
+	429200001	battle_leoh_heal_cry	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\Battle SFX\battle_leoh_heal_cry_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Battle SFX\Battle SFX\battle_leoh_heal_cry		1653908
+	438640651	plyr_footstep_norug_03	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\plyr_footstep_norug_B_957278B4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stage SFX\plyr_footsteps\plyr_footsteps_norug\plyr_footstep_norug_03		37596
+	443785801	plyr_footstep_rug_04	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\plyr_footstep_rug_B_90FF976F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stage SFX\plyr_footsteps\plyr_footsteps_rug\plyr_footstep_rug_04		46260
+	456665027	battle_blanket_atk_smack	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\Battle SFX\battle_blanket_atk_smack_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Battle SFX\Battle SFX\battle_blanket_atk_smack		741472
+	472663334	adlib_leoh_icandoit	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\Battle SFX\adlib_leoh_icandoit_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Battle SFX\Battle SFX\adlib_leoh_icandoit		785476
+	483489420	plyr_footstep_rug_02	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\plyr_footstep_rug_B_B18263C6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stage SFX\plyr_footsteps\plyr_footsteps_rug\plyr_footstep_rug_02		45716
+	499017821	Title_SFX_Menu Hilight	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\start_menu_hilight_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Title Menu SFX\Title_SFX_Menu Hilight		84412
+	522558357	plyr_footstep_rug_07	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\plyr_footstep_rug_B_30786BF6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stage SFX\plyr_footsteps\plyr_footsteps_rug\plyr_footstep_rug_07		40284
+	584080768	plyr_footstep_rug_06	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\plyr_footstep_rug_B_09747BF6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stage SFX\plyr_footsteps\plyr_footsteps_rug\plyr_footstep_rug_06		45720
+	584515178	adlib_leoh_notagain	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\Battle SFX\adlib_leoh_notagain_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Battle SFX\Battle SFX\adlib_leoh_notagain		785476
+	620398112	battle_start_fanfare	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\Battle SFX\battle_start_fanfare_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Battle SFX\Battle SFX\battle_start_fanfare		1808260
+	644968494	battle_menu_select	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\Battle SFX\battle_menu_select_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Battle SFX\Battle SFX\battle_menu_select		106368
+	653647821	plyr_footstep_rug_05	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\plyr_footstep_rug_B_63F29ECA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stage SFX\plyr_footsteps\plyr_footsteps_rug\plyr_footstep_rug_05		41916
+	678941195	battle_blanket_atk_blow	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\Battle SFX\battle_blanket_atk_blow_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Battle SFX\Battle SFX\battle_blanket_atk_blow		1083484
+	741486911	adlib_leoh_ohh	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\Battle SFX\adlib_leoh_ohh_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Battle SFX\Battle SFX\adlib_leoh_takedmg\adlib_leoh_ohh		176560
+	749999793	plyr_footstep_rug_01	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\plyr_footstep_rug_B_1AE4EFBC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stage SFX\plyr_footsteps\plyr_footsteps_rug\plyr_footstep_rug_01		41872
+	788219700	The Night Is Young	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\Leo OST\The Night Is Young_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Leo OST\The Night Is Young\The Night Is Young		26991128
+	824677581	adlib_leoh_owowow	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\Battle SFX\adlib_leoh_owowow_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Battle SFX\Battle SFX\adlib_leoh_takedmg\adlib_leoh_owowow		523332
+	842490701	battle_leoh_atk_spray	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\Battle SFX\battle_leoh_atk_spray_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Battle SFX\Battle SFX\battle_leoh_atk_spray		431848
+	850956333	adlib_leoh_ouchies	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\Battle SFX\adlib_leoh_ouchies_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Battle SFX\Battle SFX\adlib_leoh_takedmg\adlib_leoh_ouchies		523332
+	941862698	Title Theme	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\Leo OST\Title Theme_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Leo OST\Title Theme\Title Theme		22363816
+	1000087095	Stage_SFX_Can't Interact_04	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\Stage_SFX_Can't Interact_5DFC0536.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stage SFX\Stage_SFX_noInteract\Stage_SFX_Can't Interact_04		34244
+	1018010528	plyr_footstep_norug_08	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\plyr_footstep_norug_B_C1972E40.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stage SFX\plyr_footsteps\plyr_footsteps_norug\plyr_footstep_norug_08		34596
+	1028931122	battle_menu_hilight	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\Battle SFX\battle_menu_hilight_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Battle SFX\Battle SFX\battle_menu_hilight		85056
+	1030457540	Title_SFX_Menu Select	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\start_menu_select_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Title Menu SFX\Title_SFX_Menu Select		404408
+	1035771055	plyr_footstep_norug_04	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\plyr_footstep_norug_B_9D22BA58.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stage SFX\plyr_footsteps\plyr_footsteps_norug\plyr_footstep_norug_04		29596
+	1050315229	Stage_SFX_Can't Interact_02	D:\Stuff\Projects\Unity Projects\Dead-And-Alive\Wwise Project\Leoh Schrodinger Tutorial Sounds\.cache\Windows\SFX\Stage_SFX_Can't Interact_15E39D9F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stage SFX\Stage_SFX_noInteract\Stage_SFX_Can't Interact_02		52120
+

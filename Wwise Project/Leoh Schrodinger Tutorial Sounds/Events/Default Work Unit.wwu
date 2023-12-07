@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{966F31A3-09DE-4633-A5A3-D5050493E446}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{966F31A3-09DE-4633-A5A3-D5050493E446}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="plyr_move" ID="{30679D51-6390-4EEA-9BF2-615ABBE451E4}">
+					<ChildrenList>
+						<Action Name="" ID="{A1E201AE-0170-4B9E-808F-9CE279B6DD97}" ShortID="750553892">
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="plyr_footsteps" ID="{FBA4D490-2EB2-4DED-8772-81B70EBD0509}" WorkUnitID="{99EC88C0-B8F2-4BA0-986C-BEFEC09BC330}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="battle_start" ID="{8F488374-9932-4700-B379-3B9A25B18A5C}">
+					<ChildrenList>
+						<Action Name="" ID="{EB02514E-DF47-4C16-AA23-901F33721A53}" ShortID="105231681">
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="battle_start_fanfare" ID="{F8067220-4913-4701-B01C-DEC45E80570A}" WorkUnitID="{99EC88C0-B8F2-4BA0-986C-BEFEC09BC330}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BF508274-C2B7-4FB3-B3CD-6028F87BC04A}" ShortID="447151773">
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Bussin Bussin (Battle Theme)" ID="{153EBD7C-48F8-45B0-9CEA-A6703BB26348}" WorkUnitID="{D946C015-8CF7-441F-8240-328424869B85}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="battle_menu_hilight" ID="{9D34CD02-816A-4FC6-B4C4-4B068E6B63B2}">
+					<ChildrenList>
+						<Action Name="" ID="{9FFAE324-C42E-456A-BE49-C3DF11798F28}" ShortID="660886348">
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="battle_menu_hilight" ID="{DDA129F4-CC73-4227-8F95-85F334AC07EE}" WorkUnitID="{99EC88C0-B8F2-4BA0-986C-BEFEC09BC330}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="battle_menu_select" ID="{227C8662-02F7-4AE0-83A2-4E816F6F091E}">
+					<ChildrenList>
+						<Action Name="" ID="{F62B65CF-5CAB-4B6D-8067-F2572437DAD0}" ShortID="917949119">
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="battle_menu_select" ID="{DCCBDADA-5522-47F1-8A67-D35FD57D8054}" WorkUnitID="{99EC88C0-B8F2-4BA0-986C-BEFEC09BC330}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="battle_leoh_spray" ID="{88D0EBA8-48E7-4D31-AD57-29931675BEC5}">
+					<ChildrenList>
+						<Action Name="" ID="{1D57CB18-0AB0-4F9D-9D99-C7471E2F337B}" ShortID="1061019413">
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="battle_leoh_atk_spray" ID="{521E10CA-3882-41A3-A234-5D1BB3034974}" WorkUnitID="{99EC88C0-B8F2-4BA0-986C-BEFEC09BC330}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="battle_leoh_scrub" ID="{F97D0299-BDBD-461F-92DE-6F3F1A91E133}">
+					<ChildrenList>
+						<Action Name="" ID="{580F7A33-B28B-4569-AD2B-595A6D18199A}" ShortID="653894012">
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="battle_leoh_atk_scrub" ID="{6ED888A2-9F6E-4E78-9857-9EBFEAF7A32D}" WorkUnitID="{99EC88C0-B8F2-4BA0-986C-BEFEC09BC330}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="battle_leoh_cry" ID="{F369A9E0-A79E-452D-8ADE-B957A65617BD}">
+					<ChildrenList>
+						<Action Name="" ID="{E68E5FB2-7BF1-4703-8361-A46AA312FB0F}" ShortID="242766515">
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="battle_leoh_heal_cry" ID="{06DA04BD-4945-4B6A-A97A-4F9AE819151D}" WorkUnitID="{99EC88C0-B8F2-4BA0-986C-BEFEC09BC330}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="battle_leoh_takedmg" ID="{C77D7B2A-96A3-4077-A974-1D57C9A87FBB}">
+					<ChildrenList>
+						<Action Name="" ID="{2DE2C5D6-7BFB-4603-89F5-71F6BFACBBD4}" ShortID="743364908">
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="adlib_leoh_takedmg" ID="{58062D17-90BE-4CFC-9763-D653EBFC39B6}" WorkUnitID="{99EC88C0-B8F2-4BA0-986C-BEFEC09BC330}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="battle_leoh_lose" ID="{06C2DCF0-0296-4E6F-8052-9150F145CE47}">
+					<ChildrenList>
+						<Action Name="" ID="{28FE4F5E-8729-45B2-88AB-908FFC580E0A}" ShortID="716923626">
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="adlib_leoh_notagain" ID="{DFDB837C-2DAF-4ACF-BA2F-535A2185BAD9}" WorkUnitID="{99EC88C0-B8F2-4BA0-986C-BEFEC09BC330}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="battle_mons_takedmg" ID="{B0BBF21B-FBFE-4C37-89E2-597911C0711A}">
+					<ChildrenList>
+						<Action Name="" ID="{9D59BE95-B6DD-42EE-AB02-9E5B4F3D2529}" ShortID="242084931">
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="adlib_blanket_hurt" ID="{C7CEF750-CF52-4A7C-A7BC-03B5764ADF97}" WorkUnitID="{99EC88C0-B8F2-4BA0-986C-BEFEC09BC330}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="battle_mons_smack" ID="{A45D100F-AD93-409F-8121-6A86E5EFC20C}">
+					<ChildrenList>
+						<Action Name="" ID="{6B5232A3-F6E7-4432-B8EF-8D69F75DA9E8}" ShortID="67355349">
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="battle_blanket_atk_smack" ID="{891A9849-CF1B-443B-8552-DFC5B3FBC39D}" WorkUnitID="{99EC88C0-B8F2-4BA0-986C-BEFEC09BC330}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="battle_mons_blow" ID="{920BD72C-EA75-478C-81C7-426AE175596B}">
+					<ChildrenList>
+						<Action Name="" ID="{106A0082-1019-4166-B1BF-D389B014C0BF}" ShortID="11315490">
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="battle_blanket_atk_blow" ID="{ABF7C7EB-1005-4FEA-8E1E-2AA2ABE388C5}" WorkUnitID="{99EC88C0-B8F2-4BA0-986C-BEFEC09BC330}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="battle_mons_weak" ID="{ACCC1072-CA3D-4160-81F6-7394F298FBCF}">
+					<ChildrenList>
+						<Action Name="" ID="{AC3E37FC-CDB5-423B-A254-EED5D6630F80}" ShortID="413252342">
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="adlib_blanket_hurt" ID="{C7CEF750-CF52-4A7C-A7BC-03B5764ADF97}" WorkUnitID="{99EC88C0-B8F2-4BA0-986C-BEFEC09BC330}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="battle_mons_die" ID="{6B31332A-DF4D-412B-BB11-EA2259A8E50E}">
+					<ChildrenList>
+						<Action Name="" ID="{3102A233-A1EB-4211-B2CF-8414F211C7F3}" ShortID="59840215">
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="battle_blanket_death" ID="{228650FE-835B-47A4-B04D-A334A55282E8}" WorkUnitID="{99EC88C0-B8F2-4BA0-986C-BEFEC09BC330}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="battle_victory" ID="{6109D285-57F9-446C-B291-F594D340FD2D}">
+					<ChildrenList>
+						<Action Name="" ID="{2610B5AF-BF0E-426A-BFFF-D47D880638F8}" ShortID="801160805">
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="adlib_leoh_icandoit" ID="{74D591BE-B540-44C5-A7F0-122F2FE491BF}" WorkUnitID="{99EC88C0-B8F2-4BA0-986C-BEFEC09BC330}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="plyr_interact_good" ID="{A3A4B565-345E-48A2-9AE4-2549A8398D08}">
+					<ChildrenList>
+						<Action Name="" ID="{3B0A90D2-0357-4119-9B22-8B1CD78732B5}" ShortID="872471807">
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Stage_SFX_interact" ID="{3F9368CB-E895-478D-9D47-8F6E3F65AADD}" WorkUnitID="{99EC88C0-B8F2-4BA0-986C-BEFEC09BC330}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="plyr_interact_bad" ID="{AAE20AAC-B1A1-433C-A047-8621EBFAC995}">
+					<ChildrenList>
+						<Action Name="" ID="{3425DA15-2781-4DC5-A2A6-991ACB87CB62}" ShortID="765762250">
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Stage_SFX_noInteract" ID="{670ECB10-0B2B-4390-A0F8-8E240CAA8ABF}" WorkUnitID="{99EC88C0-B8F2-4BA0-986C-BEFEC09BC330}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="title_menu_hilight" ID="{907EE389-B0EB-4B5E-8886-9B80C5C943A1}">
+					<ChildrenList>
+						<Action Name="" ID="{0965152D-8BA4-46E2-B374-2D3D460F87A4}" ShortID="615208016">
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Title_SFX_Menu Hilight" ID="{D93458E5-6D7A-4C1A-8BE9-54F3EEB4F5E2}" WorkUnitID="{99EC88C0-B8F2-4BA0-986C-BEFEC09BC330}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="title_menu_select" ID="{F7DD29E4-927C-4A80-9D61-7347546B5EC0}">
+					<ChildrenList>
+						<Action Name="" ID="{7BED62F5-468E-4857-808F-595E59584398}" ShortID="138843797">
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Title_SFX_Menu Select" ID="{B8911F06-555D-40A7-A07F-629A81D19BC4}" WorkUnitID="{99EC88C0-B8F2-4BA0-986C-BEFEC09BC330}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="game_start" ID="{B64ECB24-E19F-4455-9ADC-3F1058BC944E}">
+					<ChildrenList>
+						<Action Name="" ID="{83A93B3D-A77A-40E0-BEAD-5B6140D770D3}" ShortID="891030130">
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Title Theme" ID="{FF379D9A-F48E-46D6-A3E7-53CB0DF5586F}" WorkUnitID="{D946C015-8CF7-441F-8240-328424869B85}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="file_loaded" ID="{4700C047-B5B0-4A8E-8AA8-3E26BFB1DD72}">
+					<ChildrenList>
+						<Action Name="" ID="{45A0DB2C-95AA-4605-913B-D4E4CC3436F6}" ShortID="1033381103">
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="The Night Is Young" ID="{7E1E094D-D05B-4AD1-8662-474074FCC6C5}" WorkUnitID="{D946C015-8CF7-441F-8240-328424869B85}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

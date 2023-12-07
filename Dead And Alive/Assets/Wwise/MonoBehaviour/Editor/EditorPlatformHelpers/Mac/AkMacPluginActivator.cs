@@ -36,6 +36,8 @@ public class AkMacPluginActivator
 		{
 			WwisePlatformName = "Mac"
 		});
+		
+		WwiseSetupWizard.AddBuildTargetGroup(UnityEditor.BuildTargetGroup.Standalone);
 	}
 }
 #endif

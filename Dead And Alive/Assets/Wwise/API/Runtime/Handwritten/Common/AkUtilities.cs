@@ -633,6 +633,7 @@ public partial class AkUtilities
 			var error = UnityEditor.AssetDatabase.CreateFolder(parentFolder, folders[i]);
 			if (string.IsNullOrEmpty(error))
 			{
+				UnityEngine.Debug.LogFormat("WwiseUnity: Created folder <{0}> in <{0}>", folders[i], parentFolder);
 				created = true;
 				continue;
 			}
@@ -656,8 +657,15 @@ public partial class AkUtilities
 	{
 		oldPath = oldPath.Replace(System.IO.Path.AltDirectorySeparatorChar, System.IO.Path.DirectorySeparatorChar);
 		newPath = newPath.Replace(System.IO.Path.AltDirectorySeparatorChar, System.IO.Path.DirectorySeparatorChar);
+		
 		if (oldPath.Equals(newPath, System.StringComparison.OrdinalIgnoreCase))
 			return false;
+
+		if (!AssetDatabase.IsValidFolder(oldPath))
+		{
+			UnityEngine.Debug.LogWarningFormat("WwiseUnity: Refusing to move nonexistent folder <{0}>", oldPath);
+			return false;
+		}
 
 		var error = string.Empty;
 		var newParentFolder = System.IO.Path.GetDirectoryName(newPath);
@@ -789,11 +797,7 @@ public partial class AkUtilities
 
 	public static void FixSlashes(ref string path)
 	{
-#if UNITY_WSA
-		var separatorChar = '\\';
-#else
 		var separatorChar = System.IO.Path.DirectorySeparatorChar;
-#endif // UNITY_WSA
 		var badChar = separatorChar == '\\' ? '/' : '\\';
 		FixSlashes(ref path, separatorChar, badChar, true);
 	}

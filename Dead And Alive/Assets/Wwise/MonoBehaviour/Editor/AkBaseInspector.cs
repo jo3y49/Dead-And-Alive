@@ -36,7 +36,9 @@ public abstract class AkBaseInspector : UnityEditor.Editor
 		serializedObject.ApplyModifiedProperties();
 
 		if (UnityEngine.GUI.changed)
+		{
 			UnityEditor.EditorUtility.SetDirty(serializedObject.targetObject);
+		}
 	}
 }
 #endif

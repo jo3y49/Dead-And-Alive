@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 250f2d3a53f096e4f89a40a143790787, type: 3}
+  m_Script: {fileID: 11500000, guid: e3ed96c7622355546a7ab330a8df40a3, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
@@ -977,8 +977,8 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585042161764775808
     List: []
-  ExpandedFileSystemItemIds: 20000000
-  ExpandedWaapiItemIds: 20000000
+  ExpandedFileSystemItemIds: 0200000003000000190000001a0000001b00000021000000
+  ExpandedWaapiItemIds: 0200000003000000190000001a0000001b00000021000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 1

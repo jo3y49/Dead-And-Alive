@@ -55,6 +55,7 @@ public class AkPluginActivator
 			PluginID.AkParametricEQ,
 			PluginID.AkPeakLimiter,
 			PluginID.AkRoomVerb,
+			PluginID.AkReflect,
 #if !UNITY_2018_3_OR_NEWER
 			PluginID.VitaReverb,
 			PluginID.VitaCompressor,
@@ -98,7 +99,6 @@ public class AkPluginActivator
 			{ PluginID.AkMeter, "AkMeterFX" },
 			{ PluginID.AkMotionSink, "AkMotionSink" },
 			{ PluginID.AkMotionSource, "AkMotionSourceSource" },
-			{ PluginID.AkMotionGeneratorSource, "AkMotionGeneratorSource" },
 			{ PluginID.AkParametricEQ, "AkParametricEQFX" },
 			{ PluginID.AkPeakLimiter, "AkPeakLimiterFX" },
 			{ PluginID.AkPitchShifter, "AkPitchShifterFX" },
@@ -395,8 +395,6 @@ public class AkPluginActivator
 				case "tvOS":
 				case "PS4":
 				case "PS5":
-				case "XboxOne":
-				case "Stadia":
 				case "XboxSeriesX":
 				case "XboxOneGC":
 					pluginConfig = splitPath[1];
@@ -439,30 +437,6 @@ public class AkPluginActivator
 				case "Mac":
 					pluginConfig = splitPath[1];
 					SetStandalonePlatformData(pluginImporter, pluginPlatform, pluginArch);
-					break;
-
-				case "WSA":
-					pluginArch = splitPath[1];
-					pluginConfig = splitPath[2];
-
-					pluginImporter.SetPlatformData(UnityEditor.BuildTarget.WSAPlayer, "SDK", "AnySDK");
-
-					if (pluginArch == "WSA_UWP_Win32")
-					{
-						pluginImporter.SetPlatformData(UnityEditor.BuildTarget.WSAPlayer, "CPU", "X86");
-					}
-					else if (pluginArch == "WSA_UWP_x64")
-					{
-						pluginImporter.SetPlatformData(UnityEditor.BuildTarget.WSAPlayer, "CPU", "X64");
-					}
-					else if (pluginArch == "WSA_UWP_ARM")
-					{
-						pluginImporter.SetPlatformData(UnityEditor.BuildTarget.WSAPlayer, "CPU", "ARM");
-					}
-					else if (pluginArch == "WSA_UWP_ARM64")
-					{
-						pluginImporter.SetPlatformData(UnityEditor.BuildTarget.WSAPlayer, "CPU", "ARM64");
-					}
 					break;
 
 				case "Windows":
@@ -519,14 +493,7 @@ public class AkPluginActivator
 			}
 
 			bool isCompatibleWithPlatform = bActivate && Activate;
-			if (!bActivate && target == UnityEditor.BuildTarget.WSAPlayer)
-			{
-				AssetChanged = true;
-			}
-			else
-			{
-				AssetChanged |= pluginImporter.GetCompatibleWithPlatform(target) != isCompatibleWithPlatform;
-			}
+			AssetChanged |= pluginImporter.GetCompatibleWithPlatform(target) != isCompatibleWithPlatform;
 
 			pluginImporter.SetCompatibleWithPlatform(target, isCompatibleWithPlatform);
 
@@ -1077,7 +1044,6 @@ public class AkPluginActivator
 		AkHarmonizer = 0x8A0003,
 		AkMotionSink = 0x1FB0007,
 		AkMotionSource = 0x1990002,
-		AkMotionGeneratorSource = 0x1950002,
 		AkPitchShifter = 0x880003,
 		AkRecorder = 0x840003,
 		AkReflect = 0xAB0003,
