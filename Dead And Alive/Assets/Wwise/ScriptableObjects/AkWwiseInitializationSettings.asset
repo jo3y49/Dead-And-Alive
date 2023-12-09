@@ -9,13 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4b3eba587312c242850b52fe6b68111, type: 3}
+  m_Script: {fileID: 11500000, guid: a8ad8b77b50f4b140b17ad54f4fb4691, type: 3}
   m_Name: AkWwiseInitializationSettings
   m_EditorClassIdentifier: 
   PlatformSettingsNameList:
   - Windows
   PlatformSettingsList:
-  - {fileID: 11400000, guid: 9fc79f8df2942e048b6044d41d3ceefa, type: 2}
+  - {fileID: 11400000, guid: 31e29aca86ebefd4ab874bfb42d09ec0, type: 2}
   InvalidReferencePlatforms: []
   UserSettings:
     m_BasePath: Audio\GeneratedSoundBanks

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<RootPaths>
-		<ProjectRoot>../../</ProjectRoot>
-		<SourceFilesRoot>../../.cache/Windows/</SourceFilesRoot>
+		<ProjectRoot>../../../../../../Wwise Project/Leoh Schrodinger Tutorial Sounds</ProjectRoot>
+		<SourceFilesRoot>../../../../../../Wwise Project/Leoh Schrodinger Tutorial Sounds/.cache/Windows</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>../../../../../../Wwise Project/Leoh Schrodinger Tutorial Sounds/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1022080539" Type="User" Language="SFX" Hash="{343624FC-22EF-E50C-8663-69E1BF4BE8C8}">
+		<SoundBank Id="1022080539" Type="User" Language="SFX" Hash="{5E88F7AC-D562-E478-E547-6E3FAEA24F31}">
 			<ShortName>tutorial_sfx_01</ShortName>
 			<Path>tutorial_sfx_01.bnk</Path>
 			<Media>
@@ -187,90 +187,90 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2093969607" Name="battle_leoh_cry">
+				<Event Id="2093969607" Name="battle_leoh_cry" DurationType="OneShot" DurationMin="9.374989" DurationMax="9.374989">
 					<MediaRefs>
 						<MediaRef Id="429200001"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3671520594" Name="battle_leoh_lose">
+				<Event Id="3671520594" Name="battle_leoh_lose" DurationType="OneShot" DurationMin="4.451905" DurationMax="4.451905">
 					<MediaRefs>
 						<MediaRef Id="584515178"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3313907494" Name="battle_leoh_scrub">
+				<Event Id="3313907494" Name="battle_leoh_scrub" DurationType="OneShot" DurationMin="3.1250114" DurationMax="3.1250114">
 					<MediaRefs>
 						<MediaRef Id="119603285"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1166900932" Name="battle_leoh_spray">
+				<Event Id="1166900932" Name="battle_leoh_spray" DurationType="OneShot" DurationMin="2.4472108" DurationMax="2.4472108">
 					<MediaRefs>
 						<MediaRef Id="842490701"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2323196684" Name="battle_leoh_takedmg">
+				<Event Id="2323196684" Name="battle_leoh_takedmg" DurationType="OneShot" DurationMin="1" DurationMax="2.9658277">
 					<MediaRefs>
 						<MediaRef Id="741486911"/>
 						<MediaRef Id="824677581"/>
 						<MediaRef Id="850956333"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3747978853" Name="battle_menu_hilight">
+				<Event Id="3747978853" Name="battle_menu_hilight" DurationType="OneShot" DurationMin="0.48126984" DurationMax="0.48126984">
 					<MediaRefs>
 						<MediaRef Id="1028931122"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2192358494" Name="battle_menu_select">
+				<Event Id="2192358494" Name="battle_menu_select" DurationType="OneShot" DurationMin="0.6020862" DurationMax="0.6020862">
 					<MediaRefs>
 						<MediaRef Id="644968494"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3792906618" Name="battle_mons_blow">
+				<Event Id="3792906618" Name="battle_mons_blow" DurationType="OneShot" DurationMin="6.1412926" DurationMax="6.1412926">
 					<MediaRefs>
 						<MediaRef Id="678941195"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3060326344" Name="battle_mons_die">
+				<Event Id="3060326344" Name="battle_mons_die" DurationType="OneShot" DurationMin="10.5" DurationMax="10.5">
 					<MediaRefs>
 						<MediaRef Id="214335777"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1177863625" Name="battle_mons_smack">
+				<Event Id="1177863625" Name="battle_mons_smack" DurationType="OneShot" DurationMin="4.202449" DurationMax="4.202449">
 					<MediaRefs>
 						<MediaRef Id="456665027"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3504249157" Name="battle_mons_takedmg">
+				<Event Id="3504249157" Name="battle_mons_takedmg" DurationType="OneShot" DurationMin="0.8746712" DurationMax="0.8746712">
 					<MediaRefs>
 						<MediaRef Id="261084782"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2767477490" Name="battle_mons_weak">
+				<Event Id="2767477490" Name="battle_mons_weak" DurationType="OneShot" DurationMin="0.8746712" DurationMax="0.8746712">
 					<MediaRefs>
 						<MediaRef Id="261084782"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2706291346" Name="battle_start">
+				<Event Id="2706291346" Name="battle_start" DurationType="OneShot" DurationMin="218.34378" DurationMax="218.34378">
 					<MediaRefs>
 						<MediaRef Id="257574325"/>
 						<MediaRef Id="620398112"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="583993376" Name="battle_victory">
+				<Event Id="583993376" Name="battle_victory" DurationType="OneShot" DurationMin="4.451905" DurationMax="4.451905">
 					<MediaRefs>
 						<MediaRef Id="472663334"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3079431841" Name="file_loaded">
+				<Event Id="3079431841" Name="file_loaded" DurationType="OneShot" DurationMin="153.01001" DurationMax="153.01001">
 					<MediaRefs>
 						<MediaRef Id="788219700"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="733168346" Name="game_start">
+				<Event Id="733168346" Name="game_start" DurationType="OneShot" DurationMin="126.77809" DurationMax="126.77809">
 					<MediaRefs>
 						<MediaRef Id="941862698"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="441633477" Name="plyr_interact_bad">
+				<Event Id="441633477" Name="plyr_interact_bad" DurationType="OneShot" DurationMin="0.19359054" DurationMax="0.29493085">
 					<MediaRefs>
 						<MediaRef Id="260488563"/>
 						<MediaRef Id="409409560"/>
@@ -278,14 +278,14 @@
 						<MediaRef Id="1050315229"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4125318811" Name="plyr_interact_good">
+				<Event Id="4125318811" Name="plyr_interact_good" DurationType="OneShot" DurationMin="0.39405206" DurationMax="0.4188352">
 					<MediaRefs>
 						<MediaRef Id="18253306"/>
 						<MediaRef Id="196652561"/>
 						<MediaRef Id="254728033"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2377987088" Name="plyr_move">
+				<Event Id="2377987088" Name="plyr_move" DurationType="OneShot" DurationMin="0.16723026" DurationMax="0.28633004">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3714303081" Id="2412606308" Default="true"/>
@@ -315,12 +315,12 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="2567496511" Name="title_menu_hilight">
+				<Event Id="2567496511" Name="title_menu_hilight" DurationType="OneShot" DurationMin="0.47761905" DurationMax="0.47761905">
 					<MediaRefs>
 						<MediaRef Id="499017821"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3730684024" Name="title_menu_select">
+				<Event Id="3730684024" Name="title_menu_select" DurationType="OneShot" DurationMin="2.2916553" DurationMax="2.2916553">
 					<MediaRefs>
 						<MediaRef Id="1030457540"/>
 					</MediaRefs>
@@ -497,5 +497,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6E63FCA1-6B2E-42F5-154F-B5FB0A874E53}</FileHash>
+	<FileHash>{69AC8150-C0CC-8539-831A-702912C37532}</FileHash>
 </SoundBanksInfo>

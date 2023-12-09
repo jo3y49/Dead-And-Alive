@@ -43,8 +43,9 @@ public class AttackList
         string attackName = "null";
         float accuracy = 0;
         float damageMultiplier = 0;
+        uint attackID = 0;
 
-        return AttackAction.DoAttack(self, target, attackName, accuracy, damageMultiplier);
+        return AttackAction.DoAttack(self, target, attackName, attackID, accuracy, damageMultiplier);
     }
 
     public bool Physical(CharacterBattle self, CharacterBattle target)
@@ -52,8 +53,9 @@ public class AttackList
         string attackName = GetAction("physical").Name;
         float accuracy = 1f;
         float damageMultiplier = 1f;
+        uint attackID = 3313907494;
         
-        return AttackAction.DoAttack(self, target, attackName, accuracy, damageMultiplier);
+        return AttackAction.DoAttack(self, target, attackName, attackID, accuracy, damageMultiplier);
     }
 
     public bool Ranged(CharacterBattle self, CharacterBattle target)
@@ -61,16 +63,18 @@ public class AttackList
         string attackName = GetAction("ranged").Name;
         float accuracy = 1f;
         float damageMultiplier = 1f;
+        uint attackID = 1166900932;
 
-        return AttackAction.DoAttack(self, target, attackName, accuracy, damageMultiplier);
+        return AttackAction.DoAttack(self, target, attackName, attackID, accuracy, damageMultiplier);
     }
 
     public bool Heal(CharacterBattle self, CharacterBattle target)
     {
         string attackName = GetAction("heal").Name;
         float healMultiplier = 1f;
+        uint attackID = 2093969607;
 
-        return AttackAction.DoHeal(self, attackName, healMultiplier);
+        return AttackAction.DoHeal(self, attackName, attackID, healMultiplier);
     }
 
     public bool Throw(CharacterBattle self, CharacterBattle target)
@@ -78,7 +82,8 @@ public class AttackList
         string attackName = GetAction("throw").Name;
         float accuracy = 1f;
         float damageMultiplier = 1f;
+        uint attackID = 1177863625;
 
-        return AttackAction.DoAttack(self, target, attackName, accuracy, damageMultiplier);
+        return AttackAction.DoAttack(self, target, attackName, attackID, accuracy, damageMultiplier);
     }
 }

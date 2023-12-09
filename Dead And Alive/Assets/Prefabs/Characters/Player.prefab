@@ -15,7 +15,8 @@ GameObject:
   - component: {fileID: 2823462950413645187}
   - component: {fileID: 8417090851930589152}
   - component: {fileID: 8059735501282345833}
-  - component: {fileID: 7338702295959347599}
+  - component: {fileID: 7485883774383596831}
+  - component: {fileID: 2348843299065477780}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -129,6 +130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterAnimation: {fileID: 8059735501282345833}
+  characterAudio: {fileID: 7485883774383596831}
   maxHealth: 10
   health: 0
   attack: 10
@@ -152,7 +154,7 @@ MonoBehaviour:
   anim: {fileID: 3223647314788989495}
   currentTrigger: 
   isAttacking: 0
---- !u!114 &7338702295959347599
+--- !u!114 &7485883774383596831
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -161,7 +163,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 4921814233745603407}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7b354a4e6cffe74ba0e7af29e32a793, type: 3}
+  m_Script: {fileID: 11500000, guid: 85d8931b635805b4ca4f86a1724bb7e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2348843299065477780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4921814233745603407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f46cd380efa32f24b80beac396b8b95c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_listeners:

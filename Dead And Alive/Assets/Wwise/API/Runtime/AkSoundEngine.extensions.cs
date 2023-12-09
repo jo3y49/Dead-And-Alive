@@ -56,16 +56,10 @@ public partial class AkSoundEngine
 
 	static partial void PreGameObjectAPICallUserHook(UnityEngine.GameObject gameObject, ulong id)
 	{
-#if UNITY_EDITOR
-		if (!UnityEngine.Application.isPlaying)
+        if (!IsInRegisteredList(id) && IsInitialized())
 		{
 			AutoRegister(gameObject, id);
-			return;
 		}
-#endif
-
-		if (!IsInRegisteredList(id) && IsInitialized())
-			AutoRegister(gameObject, id);
 	}
 
 	private static readonly System.Collections.Generic.HashSet<ulong> RegisteredGameObjects =
@@ -73,22 +67,25 @@ public partial class AkSoundEngine
 
 	static partial void PostRegisterGameObjUserHook(AKRESULT result, UnityEngine.GameObject gameObject, ulong id)
 	{
-#if UNITY_EDITOR
-		if (!UnityEngine.Application.isPlaying)
-			return;
-#endif
-
 		if (result == AKRESULT.AK_Success)
+		{
 			RegisteredGameObjects.Add(id);
+		}
 	}
 
 	static partial void PostUnregisterGameObjUserHook(AKRESULT result, UnityEngine.GameObject gameObject, ulong id)
 	{
 		if (result == AKRESULT.AK_Success)
+		{
 			RegisteredGameObjects.Remove(id);
+		}
 	}
 
-	// Helper method that a user might want to implement
+	static partial void ClearRegisteredGameObjects()
+	{
+		RegisteredGameObjects.Clear();
+	}
+
 	private static bool IsInRegisteredList(ulong id)
 	{
 		return RegisteredGameObjects.Contains(id);
@@ -97,13 +94,6 @@ public partial class AkSoundEngine
 	// Helper method that a user might want to implement
 	public static bool IsGameObjectRegistered(UnityEngine.GameObject in_gameObject)
 	{
-#if UNITY_EDITOR
-		if (!UnityEngine.Application.isPlaying)
-		{
-			return in_gameObject.GetComponent(AkGameObjTypeString) != null;
-		}
-#endif
-
 		return IsInRegisteredList(GetAkGameObjectID(in_gameObject));
 	}
 

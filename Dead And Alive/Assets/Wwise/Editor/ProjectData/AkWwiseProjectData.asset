@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3ed96c7622355546a7ab330a8df40a3, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d9d67f9db18bef459d151184e1b503d, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
@@ -376,8 +376,8 @@ MonoBehaviour:
         guid: e0a969f39ea72d458adeb957a65617bd
       Path: Events\Default Work Unit\battle_leoh_cry
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 9.374989
+      minDuration: 9.374989
     - name: battle_leoh_lose
       guid: f0dcc20696026f4e80529150f145ce47
       id: 3671520594
@@ -393,8 +393,8 @@ MonoBehaviour:
         guid: f0dcc20696026f4e80529150f145ce47
       Path: Events\Default Work Unit\battle_leoh_lose
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 4.451905
+      minDuration: 4.451905
     - name: battle_leoh_scrub
       guid: 99027df9bdbd1f4692de6f3f1a91e133
       id: 3313907494
@@ -410,8 +410,8 @@ MonoBehaviour:
         guid: 99027df9bdbd1f4692de6f3f1a91e133
       Path: Events\Default Work Unit\battle_leoh_scrub
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 3.1250114
+      minDuration: 3.1250114
     - name: battle_leoh_spray
       guid: a8ebd088e748314dad5729931675bec5
       id: 1166900932
@@ -427,8 +427,8 @@ MonoBehaviour:
         guid: a8ebd088e748314dad5729931675bec5
       Path: Events\Default Work Unit\battle_leoh_spray
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.4472108
+      minDuration: 2.4472108
     - name: battle_leoh_takedmg
       guid: 2a7b7dc7a3967740a9741d57c9a87fbb
       id: 2323196684
@@ -444,8 +444,8 @@ MonoBehaviour:
         guid: 2a7b7dc7a3967740a9741d57c9a87fbb
       Path: Events\Default Work Unit\battle_leoh_takedmg
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.9658277
+      minDuration: 1
     - name: battle_menu_hilight
       guid: 02cd349d6a81c64fb4c44b068e6b63b2
       id: 3747978853
@@ -461,8 +461,8 @@ MonoBehaviour:
         guid: 02cd349d6a81c64fb4c44b068e6b63b2
       Path: Events\Default Work Unit\battle_menu_hilight
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.48126984
+      minDuration: 0.48126984
     - name: battle_menu_select
       guid: 62867c22f702e04a83a24e816f6f091e
       id: 2192358494
@@ -478,8 +478,8 @@ MonoBehaviour:
         guid: 62867c22f702e04a83a24e816f6f091e
       Path: Events\Default Work Unit\battle_menu_select
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.6020862
+      minDuration: 0.6020862
     - name: battle_mons_blow
       guid: 2cd70b9275ea8c4781c7426ae175596b
       id: 3792906618
@@ -495,8 +495,8 @@ MonoBehaviour:
         guid: 2cd70b9275ea8c4781c7426ae175596b
       Path: Events\Default Work Unit\battle_mons_blow
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 6.1412926
+      minDuration: 6.1412926
     - name: battle_mons_die
       guid: 2a33316b4ddf2b41bb11ea2259a8e50e
       id: 3060326344
@@ -512,8 +512,8 @@ MonoBehaviour:
         guid: 2a33316b4ddf2b41bb11ea2259a8e50e
       Path: Events\Default Work Unit\battle_mons_die
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 10.5
+      minDuration: 10.5
     - name: battle_mons_smack
       guid: 0f105da493ad9f4081216a86e5efc20c
       id: 1177863625
@@ -529,8 +529,8 @@ MonoBehaviour:
         guid: 0f105da493ad9f4081216a86e5efc20c
       Path: Events\Default Work Unit\battle_mons_smack
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 4.202449
+      minDuration: 4.202449
     - name: battle_mons_takedmg
       guid: 1bf2bbb0fefb374c89e2597911c0711a
       id: 3504249157
@@ -546,8 +546,8 @@ MonoBehaviour:
         guid: 1bf2bbb0fefb374c89e2597911c0711a
       Path: Events\Default Work Unit\battle_mons_takedmg
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.8746712
+      minDuration: 0.8746712
     - name: battle_mons_weak
       guid: 7210ccac3dca604181f67394f298fbcf
       id: 2767477490
@@ -563,8 +563,8 @@ MonoBehaviour:
         guid: 7210ccac3dca604181f67394f298fbcf
       Path: Events\Default Work Unit\battle_mons_weak
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.8746712
+      minDuration: 0.8746712
     - name: battle_start
       guid: 7483488f32990047b3793b9a25b18a5c
       id: 2706291346
@@ -580,8 +580,8 @@ MonoBehaviour:
         guid: 7483488f32990047b3793b9a25b18a5c
       Path: Events\Default Work Unit\battle_start
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 218.34378
+      minDuration: 218.34378
     - name: battle_victory
       guid: 85d20961f9576c44b291f594d340fd2d
       id: 583993376
@@ -597,8 +597,8 @@ MonoBehaviour:
         guid: 85d20961f9576c44b291f594d340fd2d
       Path: Events\Default Work Unit\battle_victory
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 4.451905
+      minDuration: 4.451905
     - name: file_loaded
       guid: 47c00047b0b58e4a8aa83e26bfb1dd72
       id: 3079431841
@@ -614,8 +614,8 @@ MonoBehaviour:
         guid: 47c00047b0b58e4a8aa83e26bfb1dd72
       Path: Events\Default Work Unit\file_loaded
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 153.01001
+      minDuration: 153.01001
     - name: game_start
       guid: 24cb4eb69fe155449adc3f1058bc944e
       id: 733168346
@@ -631,8 +631,8 @@ MonoBehaviour:
         guid: 24cb4eb69fe155449adc3f1058bc944e
       Path: Events\Default Work Unit\game_start
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 126.77809
+      minDuration: 126.77809
     - name: plyr_interact_bad
       guid: ac0ae2aaa1b13c43a0478621ebfac995
       id: 441633477
@@ -648,8 +648,8 @@ MonoBehaviour:
         guid: ac0ae2aaa1b13c43a0478621ebfac995
       Path: Events\Default Work Unit\plyr_interact_bad
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.29493085
+      minDuration: 0.19359054
     - name: plyr_interact_good
       guid: 65b5a4a35e34a2489ae42549a8398d08
       id: 4125318811
@@ -665,8 +665,8 @@ MonoBehaviour:
         guid: 65b5a4a35e34a2489ae42549a8398d08
       Path: Events\Default Work Unit\plyr_interact_good
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.4188352
+      minDuration: 0.39405206
     - name: plyr_move
       guid: 519d67309063ea4e9bf2615abbe451e4
       id: 2377987088
@@ -682,8 +682,8 @@ MonoBehaviour:
         guid: 519d67309063ea4e9bf2615abbe451e4
       Path: Events\Default Work Unit\plyr_move
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.28633004
+      minDuration: 0.16723026
     - name: title_menu_hilight
       guid: 89e37e90ebb05e4b88869b80c5c943a1
       id: 2567496511
@@ -699,8 +699,8 @@ MonoBehaviour:
         guid: 89e37e90ebb05e4b88869b80c5c943a1
       Path: Events\Default Work Unit\title_menu_hilight
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.47761905
+      minDuration: 0.47761905
     - name: title_menu_select
       guid: e429ddf77c92804a9d617347546b5ec0
       id: 3730684024
@@ -716,8 +716,8 @@ MonoBehaviour:
         guid: e429ddf77c92804a9d617347546b5ec0
       Path: Events\Default Work Unit\title_menu_select
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.2916553
+      minDuration: 2.2916553
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -977,9 +977,9 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585042161764775808
     List: []
-  ExpandedFileSystemItemIds: 0200000003000000190000001a0000001b00000021000000
-  ExpandedWaapiItemIds: 0200000003000000190000001a0000001b00000021000000
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 1
+  currentDataSource: 0
   CurrentPluginConfig: 

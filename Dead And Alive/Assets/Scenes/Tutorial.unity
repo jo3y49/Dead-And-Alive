@@ -759,8 +759,8 @@ GameObject:
   - component: {fileID: 1355284775}
   - component: {fileID: 1355284774}
   - component: {fileID: 1355284776}
-  - component: {fileID: 1355284778}
-  - component: {fileID: 1355284777}
+  - component: {fileID: 1355284780}
+  - component: {fileID: 1355284779}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -963,7 +963,7 @@ MonoBehaviour:
       enableFptlForForwardOpaque: 0
       enableBigTilePrepass: 0
       isFptlEnabled: 0
---- !u!114 &1355284777
+--- !u!114 &1355284779
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -972,12 +972,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1355284772}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb2ce03ea1a364b419a282b6b5165963, type: 3}
+  m_Script: {fileID: 11500000, guid: e488d0a6ab2f7db48924d9cdb64a5f6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isDefaultListener: 1
   listenerId: 0
---- !u!114 &1355284778
+--- !u!114 &1355284780
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -986,7 +986,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1355284772}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7b354a4e6cffe74ba0e7af29e32a793, type: 3}
+  m_Script: {fileID: 11500000, guid: f46cd380efa32f24b80beac396b8b95c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_listeners:
@@ -1635,7 +1635,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactable: 1
---- !u!1 &1780673984
+--- !u!114 &1810971529 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7034925323342444806, guid: 4c9509344a10ff74984004837473ef80,
+    type: 3}
+  m_PrefabInstance: {fileID: 5589423950940404903}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2a602db2f8fa6a48930d33ecefe59a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &2009132013
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1643,8 +1655,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1780673986}
-  - component: {fileID: 1780673985}
+  - component: {fileID: 2009132015}
+  - component: {fileID: 2009132014}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -1652,19 +1664,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1780673985
+--- !u!114 &2009132014
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1780673984}
+  m_GameObject: {fileID: 2009132013}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 855337184d9c0ad44aa387fb2486f31c, type: 3}
+  m_Script: {fileID: 11500000, guid: 53b8d436a98b76c4b947a7d7ed606fdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InitializationSettings: {fileID: 11400000, guid: f3c9a4fc434efa64594dada0a1e8abe0,
+  InitializationSettings: {fileID: 11400000, guid: 224f7ab2e7004b241ba08d4e5706c0bc,
     type: 2}
   basePath: 
   language: 
@@ -1678,13 +1690,13 @@ MonoBehaviour:
   spatialAudioPoolSize: 0
   maxSoundPropagationDepth: 0
   engineLogging: 0
---- !u!4 &1780673986
+--- !u!4 &2009132015
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1780673984}
+  m_GameObject: {fileID: 2009132013}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1693,18 +1705,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1810971529 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7034925323342444806, guid: 4c9509344a10ff74984004837473ef80,
-    type: 3}
-  m_PrefabInstance: {fileID: 5589423950940404903}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2a602db2f8fa6a48930d33ecefe59a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2084085861 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6a48f7640dfb0174facf9ce911e7a143,
@@ -2548,4 +2548,4 @@ SceneRoots:
   - {fileID: 2428572560772202127}
   - {fileID: 4358054767767504674}
   - {fileID: 580782963}
-  - {fileID: 1780673986}
+  - {fileID: 2009132015}

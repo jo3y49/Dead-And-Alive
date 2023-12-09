@@ -13,9 +13,9 @@ public class AttackAction
         Action = action;
     }
 
-    public static bool DoAttack(CharacterBattle self, CharacterBattle target, string attackName, float accuracy, float damageMultiplier)
+    public static bool DoAttack(CharacterBattle self, CharacterBattle target, string attackName, uint attackID, float accuracy, float damageMultiplier)
     {
-        self.AttackTrigger(attackName);
+        self.AttackTrigger(attackName, attackID);
 
         bool hitAttack = AttackCheck(self, target, accuracy);
 
@@ -43,9 +43,9 @@ public class AttackAction
         target.Attacked(damage);
     }
 
-    public static bool DoHeal(CharacterBattle self, string attackName, float healMultipler)
+    public static bool DoHeal(CharacterBattle self, string attackName, uint attackID, float healMultipler)
     {
-        self.AttackTrigger(attackName);
+        self.AttackTrigger(attackName, attackID);
 
         self.Heal((int)(self.maxHealth/2 * healMultipler));
 

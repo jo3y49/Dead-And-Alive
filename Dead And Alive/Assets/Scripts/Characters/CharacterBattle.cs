@@ -4,6 +4,7 @@ using System;
 
 public class CharacterBattle : MonoBehaviour {
     [SerializeField] protected CharacterAnimation characterAnimation;
+    [SerializeField] protected CharacterAudio characterAudio; 
     public string CharacterName { get; protected set; }
     public int maxHealth;
     public int health;
@@ -73,7 +74,11 @@ public class CharacterBattle : MonoBehaviour {
 
     public virtual void SetAnimationBool(string triggerName, bool b) { characterAnimation.AnimationSetBool(triggerName, b); }
 
-    public virtual void AttackTrigger(string triggerName) { characterAnimation.AttackTrigger(triggerName); }
+    public virtual void AttackTrigger(string triggerName, uint attackID) 
+    { 
+        characterAnimation.AttackTrigger(triggerName); 
+        characterAudio.PlaySound(attackID);
+    }
 
     public virtual Animator GetAnimator() {return characterAnimation.GetAnimator();}
 
