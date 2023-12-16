@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<RootPaths>
-		<ProjectRoot>../../../../../../Wwise Project/Leoh Schrodinger Tutorial Sounds</ProjectRoot>
-		<SourceFilesRoot>../../../../../../Wwise Project/Leoh Schrodinger Tutorial Sounds/.cache/Windows</SourceFilesRoot>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>../../../../../../Wwise Project/Leoh Schrodinger Tutorial Sounds/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
@@ -497,5 +497,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{69AC8150-C0CC-8539-831A-702912C37532}</FileHash>
+	<FileHash>{3D7799C5-C497-4AB4-4977-12F40F7699CB}</FileHash>
 </SoundBanksInfo>

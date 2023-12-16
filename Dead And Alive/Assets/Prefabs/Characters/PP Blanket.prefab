@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 956861984760891436}
   - component: {fileID: 954493962883763280}
   - component: {fileID: 7034925323342444806}
-  - component: {fileID: 7328198556301120311}
   - component: {fileID: 7915927444483650819}
   m_Layer: 0
   m_Name: PP Blanket
@@ -64,7 +63,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterAnimation: {fileID: 954493962883763280}
-  characterAudio: {fileID: 7328198556301120311}
   maxHealth: 20
   health: 0
   attack: 6
@@ -73,18 +71,6 @@ MonoBehaviour:
   evasion: 0
   hitTarget: 0
   attackClip: {fileID: 0}
---- !u!114 &7328198556301120311
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1124442696596609117}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70196c32d6cfe1c4f8cca409cdd6ffa7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &7915927444483650819
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -57,6 +57,12 @@ public class PlayerBattle : CharacterBattle {
         // SetStats(level);
     }
 
+    public override void AttackTrigger(string triggerName, string attackID) 
+    { 
+        characterAnimation.AttackTrigger(triggerName); 
+        AudioManager.PlaySound(gameObject, attackID);
+    }
+
     public void ResetHealth()
     {
         health = maxHealth;

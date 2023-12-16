@@ -20,11 +20,11 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-      guid: 2d3af0837ef2154ba807f17e34071497
+      guid: 4e6052e74483e348abfe75f8565c204e
     ParentPath: Virtual Acoustics\Default Work Unit
-    guid: 2d3af0837ef2154ba807f17e34071497
+    guid: 4e6052e74483e348abfe75f8565c204e
     GuidInternal: 
-    m_lastTime: -8585042161764775808
+    m_lastTime: -8584989422009902647
     List: []
   - PhysicalPath: Virtual Acoustics\Factory Acoustic Textures.wwu
     PathAndIcons:
@@ -299,11 +299,11 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-      guid: b28b780bedfabc40801f00a95118e1fd
+      guid: 6a184a429faf4c4995460a991d4ffa98
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
-    guid: b28b780bedfabc40801f00a95118e1fd
+    guid: 6a184a429faf4c4995460a991d4ffa98
     GuidInternal: 
-    m_lastTime: -8585042161764775808
+    m_lastTime: -8584989422013488250
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -314,7 +314,7 @@ MonoBehaviour:
         guid: 00000000000000000000000000000000
       - ElementName: Default Work Unit
         ObjectType: 12
-        guid: b28b780bedfabc40801f00a95118e1fd
+        guid: 6a184a429faf4c4995460a991d4ffa98
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -327,26 +327,12 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-      guid: c69abe0ad1722b46a364056eaa0f23d7
+      guid: ab056f172ce45d4183a12fad1988d4e1
     ParentPath: SoundBanks\Default Work Unit
-    guid: c69abe0ad1722b46a364056eaa0f23d7
+    guid: ab056f172ce45d4183a12fad1988d4e1
     GuidInternal: 
-    m_lastTime: -8585021997114775808
-    List:
-    - name: tutorial_sfx_01
-      guid: 5453b10418dbb34f97cf884c96cd467c
-      id: 1022080539
-      PathAndIcons:
-      - ElementName: SoundBanks
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: c69abe0ad1722b46a364056eaa0f23d7
-      - ElementName: tutorial_sfx_01
-        ObjectType: 7
-        guid: 5453b10418dbb34f97cf884c96cd467c
-      Path: SoundBanks\Default Work Unit\tutorial_sfx_01
+    m_lastTime: -8584989422015987812
+    List: []
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -355,369 +341,12 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-      guid: a3316f96de093346a5a3d5050493e446
+      guid: bfbe95d0dbff8343bad68f092defd7d5
     ParentPath: Events\Default Work Unit
-    guid: a3316f96de093346a5a3d5050493e446
+    guid: bfbe95d0dbff8343bad68f092defd7d5
     GuidInternal: 
-    m_lastTime: -8585022008034775808
-    List:
-    - name: battle_leoh_cry
-      guid: e0a969f39ea72d458adeb957a65617bd
-      id: 2093969607
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a3316f96de093346a5a3d5050493e446
-      - ElementName: battle_leoh_cry
-        ObjectType: 3
-        guid: e0a969f39ea72d458adeb957a65617bd
-      Path: Events\Default Work Unit\battle_leoh_cry
-      maxAttenuation: 0
-      maxDuration: 9.374989
-      minDuration: 9.374989
-    - name: battle_leoh_lose
-      guid: f0dcc20696026f4e80529150f145ce47
-      id: 3671520594
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a3316f96de093346a5a3d5050493e446
-      - ElementName: battle_leoh_lose
-        ObjectType: 3
-        guid: f0dcc20696026f4e80529150f145ce47
-      Path: Events\Default Work Unit\battle_leoh_lose
-      maxAttenuation: 0
-      maxDuration: 4.451905
-      minDuration: 4.451905
-    - name: battle_leoh_scrub
-      guid: 99027df9bdbd1f4692de6f3f1a91e133
-      id: 3313907494
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a3316f96de093346a5a3d5050493e446
-      - ElementName: battle_leoh_scrub
-        ObjectType: 3
-        guid: 99027df9bdbd1f4692de6f3f1a91e133
-      Path: Events\Default Work Unit\battle_leoh_scrub
-      maxAttenuation: 0
-      maxDuration: 3.1250114
-      minDuration: 3.1250114
-    - name: battle_leoh_spray
-      guid: a8ebd088e748314dad5729931675bec5
-      id: 1166900932
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a3316f96de093346a5a3d5050493e446
-      - ElementName: battle_leoh_spray
-        ObjectType: 3
-        guid: a8ebd088e748314dad5729931675bec5
-      Path: Events\Default Work Unit\battle_leoh_spray
-      maxAttenuation: 0
-      maxDuration: 2.4472108
-      minDuration: 2.4472108
-    - name: battle_leoh_takedmg
-      guid: 2a7b7dc7a3967740a9741d57c9a87fbb
-      id: 2323196684
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a3316f96de093346a5a3d5050493e446
-      - ElementName: battle_leoh_takedmg
-        ObjectType: 3
-        guid: 2a7b7dc7a3967740a9741d57c9a87fbb
-      Path: Events\Default Work Unit\battle_leoh_takedmg
-      maxAttenuation: 0
-      maxDuration: 2.9658277
-      minDuration: 1
-    - name: battle_menu_hilight
-      guid: 02cd349d6a81c64fb4c44b068e6b63b2
-      id: 3747978853
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a3316f96de093346a5a3d5050493e446
-      - ElementName: battle_menu_hilight
-        ObjectType: 3
-        guid: 02cd349d6a81c64fb4c44b068e6b63b2
-      Path: Events\Default Work Unit\battle_menu_hilight
-      maxAttenuation: 0
-      maxDuration: 0.48126984
-      minDuration: 0.48126984
-    - name: battle_menu_select
-      guid: 62867c22f702e04a83a24e816f6f091e
-      id: 2192358494
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a3316f96de093346a5a3d5050493e446
-      - ElementName: battle_menu_select
-        ObjectType: 3
-        guid: 62867c22f702e04a83a24e816f6f091e
-      Path: Events\Default Work Unit\battle_menu_select
-      maxAttenuation: 0
-      maxDuration: 0.6020862
-      minDuration: 0.6020862
-    - name: battle_mons_blow
-      guid: 2cd70b9275ea8c4781c7426ae175596b
-      id: 3792906618
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a3316f96de093346a5a3d5050493e446
-      - ElementName: battle_mons_blow
-        ObjectType: 3
-        guid: 2cd70b9275ea8c4781c7426ae175596b
-      Path: Events\Default Work Unit\battle_mons_blow
-      maxAttenuation: 0
-      maxDuration: 6.1412926
-      minDuration: 6.1412926
-    - name: battle_mons_die
-      guid: 2a33316b4ddf2b41bb11ea2259a8e50e
-      id: 3060326344
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a3316f96de093346a5a3d5050493e446
-      - ElementName: battle_mons_die
-        ObjectType: 3
-        guid: 2a33316b4ddf2b41bb11ea2259a8e50e
-      Path: Events\Default Work Unit\battle_mons_die
-      maxAttenuation: 0
-      maxDuration: 10.5
-      minDuration: 10.5
-    - name: battle_mons_smack
-      guid: 0f105da493ad9f4081216a86e5efc20c
-      id: 1177863625
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a3316f96de093346a5a3d5050493e446
-      - ElementName: battle_mons_smack
-        ObjectType: 3
-        guid: 0f105da493ad9f4081216a86e5efc20c
-      Path: Events\Default Work Unit\battle_mons_smack
-      maxAttenuation: 0
-      maxDuration: 4.202449
-      minDuration: 4.202449
-    - name: battle_mons_takedmg
-      guid: 1bf2bbb0fefb374c89e2597911c0711a
-      id: 3504249157
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a3316f96de093346a5a3d5050493e446
-      - ElementName: battle_mons_takedmg
-        ObjectType: 3
-        guid: 1bf2bbb0fefb374c89e2597911c0711a
-      Path: Events\Default Work Unit\battle_mons_takedmg
-      maxAttenuation: 0
-      maxDuration: 0.8746712
-      minDuration: 0.8746712
-    - name: battle_mons_weak
-      guid: 7210ccac3dca604181f67394f298fbcf
-      id: 2767477490
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a3316f96de093346a5a3d5050493e446
-      - ElementName: battle_mons_weak
-        ObjectType: 3
-        guid: 7210ccac3dca604181f67394f298fbcf
-      Path: Events\Default Work Unit\battle_mons_weak
-      maxAttenuation: 0
-      maxDuration: 0.8746712
-      minDuration: 0.8746712
-    - name: battle_start
-      guid: 7483488f32990047b3793b9a25b18a5c
-      id: 2706291346
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a3316f96de093346a5a3d5050493e446
-      - ElementName: battle_start
-        ObjectType: 3
-        guid: 7483488f32990047b3793b9a25b18a5c
-      Path: Events\Default Work Unit\battle_start
-      maxAttenuation: 0
-      maxDuration: 218.34378
-      minDuration: 218.34378
-    - name: battle_victory
-      guid: 85d20961f9576c44b291f594d340fd2d
-      id: 583993376
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a3316f96de093346a5a3d5050493e446
-      - ElementName: battle_victory
-        ObjectType: 3
-        guid: 85d20961f9576c44b291f594d340fd2d
-      Path: Events\Default Work Unit\battle_victory
-      maxAttenuation: 0
-      maxDuration: 4.451905
-      minDuration: 4.451905
-    - name: file_loaded
-      guid: 47c00047b0b58e4a8aa83e26bfb1dd72
-      id: 3079431841
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a3316f96de093346a5a3d5050493e446
-      - ElementName: file_loaded
-        ObjectType: 3
-        guid: 47c00047b0b58e4a8aa83e26bfb1dd72
-      Path: Events\Default Work Unit\file_loaded
-      maxAttenuation: 0
-      maxDuration: 153.01001
-      minDuration: 153.01001
-    - name: game_start
-      guid: 24cb4eb69fe155449adc3f1058bc944e
-      id: 733168346
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a3316f96de093346a5a3d5050493e446
-      - ElementName: game_start
-        ObjectType: 3
-        guid: 24cb4eb69fe155449adc3f1058bc944e
-      Path: Events\Default Work Unit\game_start
-      maxAttenuation: 0
-      maxDuration: 126.77809
-      minDuration: 126.77809
-    - name: plyr_interact_bad
-      guid: ac0ae2aaa1b13c43a0478621ebfac995
-      id: 441633477
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a3316f96de093346a5a3d5050493e446
-      - ElementName: plyr_interact_bad
-        ObjectType: 3
-        guid: ac0ae2aaa1b13c43a0478621ebfac995
-      Path: Events\Default Work Unit\plyr_interact_bad
-      maxAttenuation: 0
-      maxDuration: 0.29493085
-      minDuration: 0.19359054
-    - name: plyr_interact_good
-      guid: 65b5a4a35e34a2489ae42549a8398d08
-      id: 4125318811
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a3316f96de093346a5a3d5050493e446
-      - ElementName: plyr_interact_good
-        ObjectType: 3
-        guid: 65b5a4a35e34a2489ae42549a8398d08
-      Path: Events\Default Work Unit\plyr_interact_good
-      maxAttenuation: 0
-      maxDuration: 0.4188352
-      minDuration: 0.39405206
-    - name: plyr_move
-      guid: 519d67309063ea4e9bf2615abbe451e4
-      id: 2377987088
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a3316f96de093346a5a3d5050493e446
-      - ElementName: plyr_move
-        ObjectType: 3
-        guid: 519d67309063ea4e9bf2615abbe451e4
-      Path: Events\Default Work Unit\plyr_move
-      maxAttenuation: 0
-      maxDuration: 0.28633004
-      minDuration: 0.16723026
-    - name: title_menu_hilight
-      guid: 89e37e90ebb05e4b88869b80c5c943a1
-      id: 2567496511
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a3316f96de093346a5a3d5050493e446
-      - ElementName: title_menu_hilight
-        ObjectType: 3
-        guid: 89e37e90ebb05e4b88869b80c5c943a1
-      Path: Events\Default Work Unit\title_menu_hilight
-      maxAttenuation: 0
-      maxDuration: 0.47761905
-      minDuration: 0.47761905
-    - name: title_menu_select
-      guid: e429ddf77c92804a9d617347546b5ec0
-      id: 3730684024
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a3316f96de093346a5a3d5050493e446
-      - ElementName: title_menu_select
-        ObjectType: 3
-        guid: e429ddf77c92804a9d617347546b5ec0
-      Path: Events\Default Work Unit\title_menu_select
-      maxAttenuation: 0
-      maxDuration: 2.2916553
-      minDuration: 2.2916553
+    m_lastTime: -8584989422016497790
+    List: []
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -726,11 +355,11 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-      guid: 7bbb2b3ebf292347b1af7216b75de800
+      guid: a58d1a74b0ec3140b8a4a34252a2c00d
     ParentPath: Game Parameters\Default Work Unit
-    guid: 7bbb2b3ebf292347b1af7216b75de800
+    guid: a58d1a74b0ec3140b8a4a34252a2c00d
     GuidInternal: 
-    m_lastTime: -8585042161764775808
+    m_lastTime: -8584989422014998247
     List: []
   - PhysicalPath: Game Parameters\Factory Soundseed Air Game Syncs.wwu
     PathAndIcons:
@@ -893,11 +522,11 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-      guid: 9b9aad1e32ed8942ad63580cbeb17985
+      guid: 3c511e77c3f7594d94fa6c668d3cde1e
     ParentPath: States\Default Work Unit
-    guid: 9b9aad1e32ed8942ad63580cbeb17985
+    guid: 3c511e77c3f7594d94fa6c668d3cde1e
     GuidInternal: 
-    m_lastTime: -8585042161764775808
+    m_lastTime: -8584989422017518040
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -907,62 +536,12 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-      guid: c4c51cff0665224493682a70a36a27af
+      guid: 383ec9a3adb6844a982e503636ae73e5
     ParentPath: Switches\Default Work Unit
-    guid: c4c51cff0665224493682a70a36a27af
+    guid: 383ec9a3adb6844a982e503636ae73e5
     GuidInternal: 
-    m_lastTime: -8585042059234775808
-    List:
-    - name: surfaces
-      guid: e38c047804ccd6469cca33ea2a11658b
-      id: 3714303081
-      PathAndIcons:
-      - ElementName: Switches
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: c4c51cff0665224493682a70a36a27af
-      - ElementName: surfaces
-        ObjectType: 11
-        guid: e38c047804ccd6469cca33ea2a11658b
-      Path: Switches\Default Work Unit\surfaces
-      values:
-      - name: carpet
-        guid: 8dcf9fbed1bc9745bb6fc618f39a6f86
-        id: 2412606308
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: c4c51cff0665224493682a70a36a27af
-        - ElementName: surfaces
-          ObjectType: 11
-          guid: e38c047804ccd6469cca33ea2a11658b
-        - ElementName: carpet
-          ObjectType: 10
-          guid: 8dcf9fbed1bc9745bb6fc618f39a6f86
-      - name: rug
-        guid: cd1732197512774ea58ebf13a6f02573
-        id: 712161697
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: c4c51cff0665224493682a70a36a27af
-        - ElementName: surfaces
-          ObjectType: 11
-          guid: e38c047804ccd6469cca33ea2a11658b
-        - ElementName: rug
-          ObjectType: 10
-          guid: cd1732197512774ea58ebf13a6f02573
-      ValueGuids: []
-      ValueIcons: []
-      valuesInternal: []
+    m_lastTime: -8584989422015498238
+    List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -971,14 +550,14 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-      guid: 88cbce72bc91e642a65ff170b0ccb6bb
+      guid: f3eacfcedac5334a836a03b2f7de21d0
     ParentPath: Triggers\Default Work Unit
-    guid: 88cbce72bc91e642a65ff170b0ccb6bb
+    guid: f3eacfcedac5334a836a03b2f7de21d0
     GuidInternal: 
-    m_lastTime: -8585042161764775808
+    m_lastTime: -8584989422008281373
     List: []
-  ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedFileSystemItemIds: 02000000080000001f0000002000000021000000
+  ExpandedWaapiItemIds: 020000000600000007000000080000001f0000002000000021000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

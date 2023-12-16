@@ -12,7 +12,7 @@
   <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
   <WwiseInstallationPathMac />
   <WwiseInstallationPathWindows>C:\Program Files (x86)\Audiokinetic\Wwise 2023.1.0.8367</WwiseInstallationPathWindows>
-  <WwiseProjectPath>../../Wwise Project/Leoh Schrodinger Tutorial Sounds/Leoh Schrodinger Tutorial Sounds.wproj</WwiseProjectPath>
+  <WwiseProjectPath>../../Wwise Project/Leoh Schrodinger Tutorial Sounds/Leoh Schrodinger Tutorial Sounds/Leoh Schrodinger Tutorial Sounds.wproj</WwiseProjectPath>
   <UseWaapi>true</UseWaapi>
   <WaapiPort>8080</WaapiPort>
   <WaapiIP>127.0.0.1</WaapiIP>

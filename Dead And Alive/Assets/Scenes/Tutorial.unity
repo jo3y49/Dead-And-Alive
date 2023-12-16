@@ -759,8 +759,8 @@ GameObject:
   - component: {fileID: 1355284775}
   - component: {fileID: 1355284774}
   - component: {fileID: 1355284776}
-  - component: {fileID: 1355284780}
-  - component: {fileID: 1355284779}
+  - component: {fileID: 1355284778}
+  - component: {fileID: 1355284777}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -963,7 +963,7 @@ MonoBehaviour:
       enableFptlForForwardOpaque: 0
       enableBigTilePrepass: 0
       isFptlEnabled: 0
---- !u!114 &1355284779
+--- !u!114 &1355284777
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -977,7 +977,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isDefaultListener: 1
   listenerId: 0
---- !u!114 &1355284780
+--- !u!114 &1355284778
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1285,6 +1285,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1720838971}
   - component: {fileID: 1720838970}
+  - component: {fileID: 1720838973}
+  - component: {fileID: 1720838972}
   m_Layer: 0
   m_Name: Cameras
   m_TagString: Untagged
@@ -1323,6 +1325,42 @@ Transform:
   - {fileID: 1745068612}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1720838972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720838969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e488d0a6ab2f7db48924d9cdb64a5f6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDefaultListener: 1
+  listenerId: 0
+--- !u!114 &1720838973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720838969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f46cd380efa32f24b80beac396b8b95c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 0
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &1740050739
 GameObject:
   m_ObjectHideFlags: 0
@@ -1378,7 +1416,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1745068612}
   - component: {fileID: 1745068609}
-  - component: {fileID: 1745068611}
   - component: {fileID: 1745068610}
   m_Layer: 0
   m_Name: Battle Camera
@@ -1567,14 +1604,6 @@ MonoBehaviour:
       enableFptlForForwardOpaque: 0
       enableBigTilePrepass: 0
       isFptlEnabled: 0
---- !u!81 &1745068611
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1745068608}
-  m_Enabled: 1
 --- !u!4 &1745068612
 Transform:
   m_ObjectHideFlags: 0
@@ -1657,6 +1686,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2009132015}
   - component: {fileID: 2009132014}
+  - component: {fileID: 2009132016}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -1705,6 +1735,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2009132016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009132013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8f11879cffccd428abb0a01c6ce19c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: ae8d9d44
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d88f351f5fdf80a4885c460c3fb4b560,
+      type: 2}
+  decodeBank: 0
+  overrideLoadSetting: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!1 &2084085861 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6a48f7640dfb0174facf9ce911e7a143,

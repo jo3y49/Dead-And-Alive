@@ -40,6 +40,8 @@ public class PlayerMovement : MonoBehaviour {
         float speedToUse = walkSpeed;
 
         rb.velocity = moveDirection * speedToUse;
+
+        AudioManager.PlaySound(gameObject, "plyr_move");
     }
 
     private void StopMovement()

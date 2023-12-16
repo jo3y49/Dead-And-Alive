@@ -43,7 +43,7 @@ public class AttackList
         string attackName = "null";
         float accuracy = 0;
         float damageMultiplier = 0;
-        uint attackID = 0;
+        string attackID = "null";
 
         return AttackAction.DoAttack(self, target, attackName, attackID, accuracy, damageMultiplier);
     }
@@ -53,7 +53,7 @@ public class AttackList
         string attackName = GetAction("physical").Name;
         float accuracy = 1f;
         float damageMultiplier = 1f;
-        uint attackID = 3313907494;
+        string attackID = "battle_leoh_scrub";
         
         return AttackAction.DoAttack(self, target, attackName, attackID, accuracy, damageMultiplier);
     }
@@ -63,7 +63,7 @@ public class AttackList
         string attackName = GetAction("ranged").Name;
         float accuracy = 1f;
         float damageMultiplier = 1f;
-        uint attackID = 1166900932;
+        string attackID = "battle_leoh_spray";
 
         return AttackAction.DoAttack(self, target, attackName, attackID, accuracy, damageMultiplier);
     }
@@ -72,7 +72,7 @@ public class AttackList
     {
         string attackName = GetAction("heal").Name;
         float healMultiplier = 1f;
-        uint attackID = 2093969607;
+        string attackID = "battle_leoh_cry";
 
         return AttackAction.DoHeal(self, attackName, attackID, healMultiplier);
     }
@@ -82,7 +82,7 @@ public class AttackList
         string attackName = GetAction("throw").Name;
         float accuracy = 1f;
         float damageMultiplier = 1f;
-        uint attackID = 1177863625;
+        string attackID = "battle_mons_smack";
 
         return AttackAction.DoAttack(self, target, attackName, attackID, accuracy, damageMultiplier);
     }
